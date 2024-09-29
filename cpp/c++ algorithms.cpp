@@ -18,7 +18,7 @@ int main() {
     return 0;
 }
 
-
+// user
 struct User {
     std::string name;
     int age;
