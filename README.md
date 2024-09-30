@@ -94,3 +94,5 @@ g++ quicksort.cpp -o quicksort
 ```
 
 ---
+
+### Thank you for contributing to this repository as part of Hacktoberfest 2024! We hope you enjoy collaborating and building amazing projects with the open-source community. If you have any questions, feel free to open an issue or reach out. Happy coding! 🎉
