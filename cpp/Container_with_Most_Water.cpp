@@ -1,3 +1,9 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -19,3 +25,18 @@ public:
         return maxArea;
     }
 };
+
+int main() {
+    Solution solution;
+
+    // Example input: heights of the container walls
+    vector<int> height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+
+    // Calling the maxArea function
+    int result = solution.maxArea(height);
+
+    // Printing the result
+    cout << "The maximum area is: " << result << endl;
+
+    return 0;
+}
