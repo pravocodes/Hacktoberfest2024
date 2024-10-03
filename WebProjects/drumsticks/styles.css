@@ -1,0 +1,279 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color:grey;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 300;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    align-items: center;
+    justify-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10%;
+}
+button{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 80px;
+    font-weight: 600px;
+    font-style: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+}
+button:hover{
+    color:goldenrod;
+}
+.Wdrum{
+    background-image: url(images/crash.png);
+    object-fit: cover;
+}
+.Adrum{
+    background-image: url(images/kick.png);
+    object-fit: cover;
+}
+.Sdrum{
+    background-image: url(images/snare.png);
+    object-fit: cover;
+}
+.Ddrum{
+    background-image: url(images/tom1.png);
+    object-fit: cover;
+}
+.Jdrum{
+    background-image: url(images/tom2.png);
+    object-fit: cover;
+}
+.Kdrum{
+    background-image: url(images/tom3.png);
+    object-fit: cover;
+}
+.Ldrum{
+    background-image: url(images/tom4.png);
+    object-fit: cover;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.pressed {
+    transform: scale(0.9);
+}
+@media only screen and (max-device-width: 1024px) and (max-device-height: 768px) and (-webkit-min-device-pixel-ratio: 1.5), /* Android devices */
+       only screen and (min-device-width: 1024px) and (min-device-height: 768px) and (-webkit-min-device-pixel-ratio: 2) { /* Apple laptops */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: peachpuff;
+        font-family: cursive;
+        font-size: 40px;
+        font-weight: 300;
+    }
+    
+    h1 {
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .container {
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        padding: 10%;
+    }
+    
+    button {
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        height: 160px;
+        width: 160px;
+        border-radius: 5%;
+        padding: 10px;
+        margin: 10px;
+        font-size: 80px;
+        font-weight: 600px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+    }
+    
+    .Wdrum {
+        background-image: url(images/crash.png);
+        object-fit: cover;
+    }
+    
+    .Adrum {
+        background-image: url(images/kick.png);
+        object-fit: cover;
+    }
+    
+    .Sdrum {
+        background-image: url(images/snare.png);
+        object-fit: cover;
+    }
+    
+    .Ddrum {
+        background-image: url(images/tom1.png);
+        object-fit: cover;
+    }
+    
+    .Jdrum {
+        background-image: url(images/tom2.png);
+        object-fit: cover;
+    }
+    
+    .Kdrum {
+        background-image: url(images/tom3.png);
+        object-fit: cover;
+    }
+    
+    .Ldrum {
+        background-image: url(images/tom4.png);
+        object-fit: cover;
+    }
+    
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .pressed {
+        transform: scale(0.9);
+    }
+}
+@media only screen and (max-device-width: 320px) and (max-device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) { /* Small smartphones */
+    /* CSS styles for small smartphones */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: peachpuff;
+        font-family: cursive;
+        font-size: 40px;
+        font-weight: 300;
+    }
+    h1 {
+        text-align: center;
+        justify-content: center;
+    }
+    .container {
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        padding: 10%;
+    }
+    button {
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        height: 160px;
+        width: 160px;
+        border-radius: 5%;
+        padding: 10px;
+        margin: 10px;
+        font-size: 80px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { /* Larger smartphones */
+    /* CSS styles for larger smartphones */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: peachpuff;
+        font-family: cursive;
+        font-size: 40px;
+        font-weight: 300;
+    }
+    h1 {
+        text-align: center;
+        justify-content: center;
+    }
+    .container {
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        padding: 10%;
+    }
+    button {
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        height: 160px;
+        width: 160px;
+        border-radius: 5%;
+        padding: 10px;
+        margin: 10px;
+        font-size: 80px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), /* Android tablets */
+       only screen and (min-device-width: 1024px) and (min-device-height: 768px) and (-webkit-min-device-pixel-ratio: 2) { /* Apple laptops */
+    /* CSS styles for tablets and laptops */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: peachpuff;
+        font-family: cursive;
+        font-size: 40px;
+        font-weight: 300;
+    }
+    h1 {
+        text-align: center;
+        justify-content: center;
+    }
+    .container {
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        padding: 10%;
+    }
+    button {
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        height: 160px;
+        width: 160px;
+        border-radius: 5%;
+        padding: 10px;
+        margin: 10px;
+        font-size: 80px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+    }
+}
