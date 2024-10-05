@@ -3,7 +3,7 @@
 #include<stdlib.h>
 using namespace std;
 struct node
-{
+{  
    int item;
    node *next;
 };
