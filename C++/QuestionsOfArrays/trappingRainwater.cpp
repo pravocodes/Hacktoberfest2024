@@ -1,35 +1,35 @@
 #include<iostream>
-#include<climits>
+#include<algorithm>
 using namespace std;
-void trap(int *heights, int n){
-    int leftMax[20000], rightMax[20000];
-     leftMax[0] = heights[0];
-     rightMax[n-1]= heights[n-1];
-    cout<<leftMax[0]<<" ,";
-    for(int i=1; i<n; i++){
-        leftMax[i] = max(leftMax[i-1], heights[i-1]);
-        cout<<leftMax[i]<<" , ";
-    }
-    cout<<endl;
-    
-    for(int i = n-2; i>=0; i--){
-        rightMax[i]= max(rightMax[i+1], heights[i+1]);
-        cout<<rightMax[i]<<",";
-    }
-    cout<<rightMax[n-1]<<",";
+
+int trap(int *heights, int n) {
+    if (n <= 2) return 0;  
+
+    int left = 0, right = n - 1;
+    int leftMax = heights[left], rightMax = heights[right];
     int waterTrapped = 0;
-    for(int i = 0; i<n; i++){
-        int currWater = min(leftMax[i], rightMax[i]) - heights[i];
-        if(currWater>0){
-            waterTrapped += currWater;
+
+    while (left <= right) {
+        if (leftMax < rightMax) {
+            leftMax = max(leftMax, heights[left]);   
+            waterTrapped += leftMax - heights[left]; r
+            left++;
+        } else {
+            rightMax = max(rightMax, heights[right]); 
+            waterTrapped += rightMax - heights[right];
+            right--;
         }
     }
-    cout<<waterTrapped;
-    cout<<endl;
+
+    return waterTrapped;
 }
-int main(){
-    int heights[7] = {4,2,0,6,3,2,5};
-    int n = sizeof(heights)/sizeof(int);
-    trap(heights, n);
+
+int main() {
+    int heights[] = {4, 2, 0, 6, 3, 2, 5};
+    int n = sizeof(heights) / sizeof(int);
+
+    int result = trap(heights, n);
+    cout << "Water trapped: " << result << endl;
+
     return 0;
 }
