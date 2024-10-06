@@ -31,7 +31,7 @@ void arr_stack::createstack(int cap)
 }
 bool arr_stack::isfull()
 {
-    return (top==capacity);
+    return (top==capacity-1);     
 }
 bool arr_stack::isempty()
 {
