@@ -1,283 +1,115 @@
-body{
-    margin:0px;
-    padding: 0px;
-    background-color:grey;
-    font-family: cursive;
-    font-size: 40px;
-    font-weight: 300;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1{
-    text-align: center;
-    justify-content: center;
-}
-.container{
-    align-items: center;
-    justify-items: center;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10%;
-}
-button{
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    justify-content: center;
+
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-family: 'Poppins', sans-serif;
     display: flex;
-    height: 160px;
-    width: 160px;
-    border-radius: 5%;
-    padding: 10px;
-    margin: 5px;
-    font-size: 80px;
-    font-weight: 600px;
-    font-style: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.drum-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    width: 320px;
+    height: 320px;
+    position: relative;
+    justify-items: center;
+    align-items: center;
+}
+
+.drum-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
     border: none;
     cursor: pointer;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
-}
-button:hover{
-    color:goldenrod;
-}
-.Wdrum{
-    background-image: url(images/crash.png);
-    object-fit: cover;
-}
-.Adrum{
-    background-image: url(images/kick.png);
-    object-fit: cover;
-}
-.Sdrum{
-    background-image: url(images/snare.png);
-    object-fit: cover;
-}
-.Ddrum{
-    background-image: url(images/tom1.png);
-    object-fit: cover;
-}
-.Jdrum{
-    background-image: url(images/tom2.png);
-    object-fit: cover;
-}
-.Kdrum{
-    background-image: url(images/tom3.png);
-    object-fit: cover;
-}
-.Ldrum{
-    background-image: url(images/tom4.png);
-    object-fit: cover;
-}
-footer{
-    display:flex ;
-    justify-content: center;
-    font-size: 20px;
-}
-p{
-    margin-right: 16px;
-}
-.pressed {
-    transform: scale(0.9);
-}
-@media only screen and (max-device-width: 1024px) and (max-device-height: 768px) and (-webkit-min-device-pixel-ratio: 1.5), /* Android devices */
-       only screen and (min-device-width: 1024px) and (min-device-height: 768px) and (-webkit-min-device-pixel-ratio: 2) { /* Apple laptops */
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: peachpuff;
-        font-family: cursive;
-        font-size: 40px;
-        font-weight: 300;
-    }
-    
-    h1 {
-        text-align: center;
-        justify-content: center;
-    }
-    
-    .container {
-        align-items: center;
-        justify-items: center;
-        display: flex;
-        padding: 10%;
-    }
-    
-    button {
-        align-items: center;
-        justify-items: center;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        height: 160px;
-        width: 160px;
-        border-radius: 5%;
-        padding: 10px;
-        margin: 10px;
-        font-size: 80px;
-        font-weight: 600px;
-        border: none;
-        cursor: pointer;
-        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
-    }
-    
-    .Wdrum {
-        background-image: url(images/crash.png);
-        object-fit: cover;
-    }
-    
-    .Adrum {
-        background-image: url(images/kick.png);
-        object-fit: cover;
-    }
-    
-    .Sdrum {
-        background-image: url(images/snare.png);
-        object-fit: cover;
-    }
-    
-    .Ddrum {
-        background-image: url(images/tom1.png);
-        object-fit: cover;
-    }
-    
-    .Jdrum {
-        background-image: url(images/tom2.png);
-        object-fit: cover;
-    }
-    
-    .Kdrum {
-        background-image: url(images/tom3.png);
-        object-fit: cover;
-    }
-    
-    .Ldrum {
-        background-image: url(images/tom4.png);
-        object-fit: cover;
-    }
-    
-    p {
-        font-size: 20px;
-        text-align: center;
-    }
-    
-    .pressed {
-        transform: scale(0.9);
-    }
-}
-@media only screen and (max-device-width: 320px) and (max-device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) { /* Small smartphones */
-    /* CSS styles for small smartphones */
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: peachpuff;
-        font-family: cursive;
-        font-size: 40px;
-        font-weight: 300;
-    }
-    h1 {
-        text-align: center;
-        justify-content: center;
-    }
-    .container {
-        align-items: center;
-        justify-items: center;
-        display: flex;
-        padding: 10%;
-    }
-    button {
-        align-items: center;
-        justify-items: center;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        height: 160px;
-        width: 160px;
-        border-radius: 5%;
-        padding: 10px;
-        margin: 10px;
-        font-size: 80px;
-        font-weight: 600;
-        border: none;
-        cursor: pointer;
-        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
-    }
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { /* Larger smartphones */
-    /* CSS styles for larger smartphones */
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: peachpuff;
-        font-family: cursive;
-        font-size: 40px;
-        font-weight: 300;
-    }
-    h1 {
-        text-align: center;
-        justify-content: center;
-    }
-    .container {
-        align-items: center;
-        justify-items: center;
-        display: flex;
-        padding: 10%;
-    }
-    button {
-        align-items: center;
-        justify-items: center;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        height: 160px;
-        width: 160px;
-        border-radius: 5%;
-        padding: 10px;
-        margin: 10px;
-        font-size: 80px;
-        font-weight: 600;
-        border: none;
-        cursor: pointer;
-        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
-    }
+.drum-button:hover, .drum-button.pressed {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(145deg, #cdd2d1, #bcdcd5);
+    color: #000;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), /* Android tablets */
-       only screen and (min-device-width: 1024px) and (min-device-height: 768px) and (-webkit-min-device-pixel-ratio: 2) { /* Apple laptops */
-    /* CSS styles for tablets and laptops */
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: peachpuff;
-        font-family: cursive;
-        font-size: 40px;
-        font-weight: 300;
+.W {
+    background: linear-gradient(145deg, #bc1a9c, #a01692);
+}
+
+.A {
+    background: linear-gradient(145deg, #bc681a, #a06216);
+}
+
+.S {
+    background: linear-gradient(145deg, #7b1abc, #6d16a0);
+}
+
+.D {
+    background: linear-gradient(145deg, #896e10, #7b7212);
+}
+
+.J {
+    background: linear-gradient(145deg, #1a9cbc, #1689a0);
+}
+
+.K {
+    background: linear-gradient(145deg, #1dbc1a, #49a016);
+}
+
+.L {
+    background: linear-gradient(145deg, #333c9b, #2b2d8d);
+}
+
+.drum-button:active {
+    transform: scale(0.95);
+    background: linear-gradient(145deg, #16a085, #1abc9c);
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #bdc3c7;
+}
+
+@media (max-width: 768px) {
+    .circle-container {
+        width: 240px;
+        height: 240px;
     }
+
+    .drum-button {
+        width: 80px;
+        height: 80px;
+        font-size: 1.5rem;
+    }
+
     h1 {
-        text-align: center;
-        justify-content: center;
-    }
-    .container {
-        align-items: center;
-        justify-items: center;
-        display: flex;
-        padding: 10%;
-    }
-    button {
-        align-items: center;
-        justify-items: center;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        height: 160px;
-        width: 160px;
-        border-radius: 5%;
-        padding: 10px;
-        margin: 10px;
-        font-size: 80px;
-        font-weight: 600;
-        border: none;
-        cursor: pointer;
-        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+        font-size: 2.5rem;
     }
 }

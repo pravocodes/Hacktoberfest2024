@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DrumSticks</title>
+    <title>Minimal Drum Kit</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>DRUM <img src="images/drumstick.jpg"> KIT</h1>
- <div class="container">
-    <button class="Wdrum">W</button>
-    <button class="Adrum">A</button>
-    <button class="Sdrum">S</button>
-    <button class="Ddrum">D</button>
-    <button class="Jdrum">J</button>
-    <button class="Kdrum">K</button>
-    <button class="Ldrum">L</button>
- </div>   
- <script src="main.js"></script>
- <footer>
-    <p> Just press the key or click them to get the sound</p>
-    <div class="footer-img"><img src="images/music.jpg"></div>
+    <div class="drum-container">
+        <h1>Drum Kit</h1>
+        <div class="circle-container">
+            <button class="drum-button W" id="W">W</button>
+            <button class="drum-button A" id="A">A</button>
+            <button class="drum-button S" id="S">S</button>
+            <button class="drum-button D" id="D">D</button>
+            <button class="drum-button J" id="J">J</button>
+            <button class="drum-button K" id="K">K</button>
+            <button class="drum-button L" id="L">L</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Click or press the key to play the sound</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
+
 </html>
