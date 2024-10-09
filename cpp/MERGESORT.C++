@@ -63,15 +63,7 @@ void merge_sort(vector<int>&v){
 }
 
 int main(){
-   /*int arr1[]={1,3,5,7,9};
-    int n1=sizeof(arr1)/sizeof(arr1[0]);
-    int arr2[]={2,4,6,8,10};
-    int n2=sizeof(arr2)/sizeof(arr2[0]);
-    
-    vector<int>a(arr1,arr1+n1);
-      vector<int>b(arr2,arr2+n2);
-      vector<int>res(n1+n2);*/
-  //  merge(a,b,res);
+ 
   int n;
   cout<<"enter size of array";
   cin>>n;
