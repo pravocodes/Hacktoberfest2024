@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/2e9c98021c.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+
+            <img src="https://static.vecteezy.com/system/resources/previews/012/870/572/original/beautiful-happy-chhath-puja-festival-card-background-free-vector.jpg" class="song-img">
+            <h1>Chath puja</h1>
+            <p>Jode Jode Falwa Suruj dev</p>
+
+            <audio  id="song">
+                <source src="./Jode Jode Falwa Suruj dev __ Swati Mishra __ Chath Geet.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
