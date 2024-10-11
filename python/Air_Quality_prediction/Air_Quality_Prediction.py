@@ -28,9 +28,10 @@ rfr = RandomForestRegressor()
 
 
 # creating models
-train_value = data[['latitude', 'longitude', 'pollutant_min', 'pollutant_max']] 
+features = ['latitude', 'longitude', 'pollutant_min', 'pollutant_max']
+train_value = data[features].values # .values is important for not getting any warnings
 # the above train value is for the input given by the user for predictions 
-target_value = data[['pollutant_avg']]
+target_value = data['pollutant_avg']
 
 
 # check for the data in train_value and target_value
@@ -41,9 +42,14 @@ target_value = data[['pollutant_avg']]
 # fitting the data
 rfr.fit(train_value, target_value)
 
+# user input 
+array = list(map(float, input().split(" ")))
+
 
 # finding the accuracy
 accuracy = rfr.score(train_value,target_value)*100
-print(f"The accuracy of this model is {accuracy:0.2f}")
+print(f"The accuracy score of this model is {accuracy:0.2f}")
 
-predict([1.55, 25.557, 45 , 88])
+
+# prediction
+predict(array)
