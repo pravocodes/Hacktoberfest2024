@@ -1,11 +1,10 @@
-#import the required modules and classes
+#import the required libraries
+
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
+# RandomForestRegressor is useful because it combines all the other models(linear regressions, logistic regressions, etc..) together to make the prediction more accurate
 
-"""
-Note: Data cannot be in strings(text), it has to be in numbers(ex- 0,1,2...)
-"""
-
+#Note: Data cannot be in strings(text, non-numericals), it has to be in numbers(ex- 0,1,2...)
 
 def predict(array_lat_long_min_max :list[int | float] = [0,0,0,0]):
     result = rfr.predict([array_lat_long_min_max]).item()
@@ -13,7 +12,7 @@ def predict(array_lat_long_min_max :list[int | float] = [0,0,0,0]):
 
 
 # loading the dataset using pandas module
-path_of_dataset = "Air_Quality.csv"
+path_of_dataset = "Air_Quality.csv" # path of the csv file
 data = pd.read_csv(path_of_dataset, skipinitialspace=True)
 
 # drop the NaN rows from the dataset because they are not required
@@ -27,15 +26,21 @@ data = data.dropna()
 # initializing the class RandomForestRegressor
 rfr = RandomForestRegressor()
 
+
 # creating models
 train_value = data[['latitude', 'longitude', 'pollutant_min', 'pollutant_max']] 
+# the above train value is for the input given by the user for predictions 
 target_value = data[['pollutant_avg']]
 
 
+# check for the data in train_value and target_value
 # print(train_value)
 # print(target_value)
 
+
+# fitting the data
 rfr.fit(train_value, target_value)
+
 
 # finding the accuracy
 accuracy = rfr.score(train_value,target_value)*100
