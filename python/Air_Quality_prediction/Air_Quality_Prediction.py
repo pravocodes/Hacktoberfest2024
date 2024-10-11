@@ -7,9 +7,16 @@ Note: Data cannot be in strings(text), it has to be in numbers(ex- 0,1,2...)
 """
 
 
+def predict(array_lat_long_min_max :list[int | float] = [0,0,0,0]):
+    result = rfr.predict([array_lat_long_min_max]).item()
+    print(result)
+
+
 # loading the dataset using pandas module
 path_of_dataset = "Air_Quality.csv"
 data = pd.read_csv(path_of_dataset, skipinitialspace=True)
+
+# drop the NaN rows from the dataset because they are not required
 data = data.dropna()
 
 
@@ -34,3 +41,4 @@ rfr.fit(train_value, target_value)
 accuracy = rfr.score(train_value,target_value)*100
 print(f"The accuracy of this model is {accuracy:0.2f}")
 
+predict([1.55, 25.557, 45 , 88])
