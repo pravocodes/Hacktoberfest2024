@@ -4,6 +4,25 @@
 
 Welcome to the Project Repository! This repository is organized by different technologies and contains various projects and algorithms categorized into specific folders. Below is a structure that explains how to navigate through the repository.
 
+## 🚀Featured In
+
+<table>
+
+   <tr>
+      <th>Event Logo</th>
+      <th>Event Name</th>
+      <th>Event Description</th>
+   </tr>
+    <tr>
+      <td><img src="image.jpg" width="200" height="auto" loading="lazy" alt="Hacktoberfest 2024"/></td>
+      <td>Hacktoberfest 2024</td>
+      <td>Hacktoberfest is a month-long celebration of open source software run by DigitalOcean, GitHub, and Twilio. It encourages contributions to open source projects and promotes a global community of developers.</td>
+   </tr>
+
+</table>
+
+<br />
+
 ## Table of Contents
 
 - [Folder Structure](#folder-structure)
@@ -94,5 +113,28 @@ g++ quicksort.cpp -o quicksort
 ```
 
 ---
+## Contributors
+
+A heartfelt thank you to the following individuals for their valuable contributions to this project. Your support and dedication are greatly appreciated:
+
+<a href="https://github.com/pravocodes/Hacktoberfest2024/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pravocodes/Hacktoberfest2024" />
+
+</a>
+
+<br>
+
+## Forkers
+<div align='center'>
+
+[![Forkers repo roster for @pravocodes/Hacktoberfest2024](https://reporoster.com/forks/pravocodes/Hacktoberfest2024)](https://github.com/pravocodes/Hacktoberfest2024/network/members)
+
+</div>
+
+<div align="center">
+    <a href="#top">
+        <img src="https://img.shields.io/badge/Back%20to%20Top-000000?style=for-the-badge&logo=github&logoColor=white" alt="Back to Top">
+    </a>
+</div>
 
 ### Thank you for contributing to this repository as part of Hacktoberfest 2024! We hope you enjoy collaborating and building amazing projects with the open-source community. If you have any questions, feel free to open an issue or reach out. Happy coding! 🎉
