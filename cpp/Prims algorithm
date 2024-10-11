@@ -1,0 +1,52 @@
+#include <iostream>
+#include <vector>
+#include <queue>
+#include <climits>
+using namespace std;
+// Function to perform Prim's Algorithm
+void primMST(const vector<vector<int>>& graph, int n) {
+    vector<int> parent(n); 
+    vector<int> key(n, INT_MAX); 
+    vector<bool> inMST(n, false); 
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+    pq.push({0, 0});
+    key[0] = 0; 
+    parent[0] = -1; 
+
+    while (!pq.empty()) {
+        int u = pq.top().second; 
+        pq.pop();
+        inMST[u] = true; 
+        for (int v = 0; v < n; v++) {
+            if (graph[u][v] != 0 && !inMST[v] && graph[u][v] < key[v]) {
+                key[v] = graph[u][v]; 
+                pq.push({key[v], v}); 
+                parent[v] = u;
+            }
+        }
+    }
+    cout << "Edge \tWeight\n";
+    for (int i = 1; i < n; i++) {
+        cout << parent[i] << " - " << i << "\t" << graph[i][parent[i]] << "\n";
+    }
+}
+
+int main() {
+    int n; 
+    cout << "Enter the number of vertices: ";
+    cin >> n;
+
+    vector<vector<int>> graph(n, vector<int>(n));
+
+    cout << "Enter the adjacency matrix of the graph (0 for no edge):\n";
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cin >> graph[i][j];
+        }
+    }
+
+    // Run Prim's Algorithm
+    primMST(graph, n);
+
+    return 0;
+}
