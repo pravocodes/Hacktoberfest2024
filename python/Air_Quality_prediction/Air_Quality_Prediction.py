@@ -68,5 +68,5 @@ try:
     predict(array)
 
 
-except (Exception, ValueError):
+except (Exception, ValueError): # multiple error handling
     print("Please give numerical values in latitude longitude min_pollutant max_pollutant!")
