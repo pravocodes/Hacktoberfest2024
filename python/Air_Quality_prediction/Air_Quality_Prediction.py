@@ -7,7 +7,16 @@ from sklearn.ensemble import RandomForestRegressor
 # NOTE: Data cannot be in strings(text, non-numericals), it has to be in numbers(ex- 0,1,2...)
 
 #function:-
-def predict(array_lat_long_min_max :list[int | float] = [0,0,0,0]):
+def predict(array_lat_long_min_max :list[int | float] = [0,0,0,0]) -> None:
+    
+    """
+    This function takes 4 parameters because there are 4 features in training model and makes the prediction.
+
+    array = [`latitude`,`longitude`,`pollutant_min`,`pollutant_max`]
+    
+    Array can be in Integer type or Float type
+    """
+
     result = rfr.predict([array_lat_long_min_max]).item()
     print("Average air quality index(pollutant):",result)
 
@@ -44,14 +53,20 @@ target_value = data['pollutant_avg']
 # fitting the data:-
 rfr.fit(train_value, target_value)
 
-# user input:-
-array = list(map(float, input("Enter latitude longitude min_pollutant max_pollutant: ").split(" ")))
+
+try:
+    # user input:-
+    array = list(map(float, input("Enter latitude longitude min_pollutant max_pollutant: ").split(" ")))
 
 
-# finding the accuracy:-
-accuracy = rfr.score(train_value,target_value)*100
-print(f"The accuracy score of this model is {accuracy:0.2f}")
+    # finding the accuracy:-
+    accuracy = rfr.score(train_value,target_value)*100
+    print(f"The accuracy score of this model is {accuracy:0.2f}")
 
 
-# prediction:-
-predict(array)
+    # prediction:-
+    predict(array)
+
+
+except (Exception, ValueError):
+    print("Please give numerical values in latitude longitude min_pollutant max_pollutant!")
