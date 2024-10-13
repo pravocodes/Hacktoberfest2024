@@ -1,0 +1,513 @@
+country,state,city,station,last_update,latitude,longitude,pollutant_id,pollutant_min,pollutant_max,pollutant_avg
+India,Bihar,Patna,"DRM Office Danapur, Patna - BSPCB","11-10-2024 21:00:00",25.586562,85.043586,OZONE,74,78,76
+India,Assam,Nagaon,"Christianpatty, Nagaon - PCBA","11-10-2024 21:00:00",26.349082,92.68449,OZONE,4,12,8
+India,Chhattisgarh,Bhilai,"Hathkhoj, Bhilai - CECB","11-10-2024 21:00:00",21.224231,81.408350,OZONE,2,25,18
+India,Chhattisgarh,Chhal,"Nawapara SECL Colony, Chhal - CECB","11-10-2024 21:00:00",22.118125,83.140608,OZONE,2,73,46
+India,Arunachal_Pradesh,Naharlagun,"Naharlagun, Naharlagun - APSPCB","11-10-2024 21:00:00",27.103358,93.679645,OZONE,3,3,3
+India,Bihar,Hajipur,"Industrial Area, Hajipur - BSPCB","11-10-2024 21:00:00",25.697189,85.245900,OZONE,16,97,79
+India,Bihar,Manguraha,"Forest Rest House, Manguraha - BSPCB","11-10-2024 21:00:00",27.308328,84.531742,OZONE,1,4,2
+India,Andhra_Pradesh,Anantapur,"Gulzarpet, Anantapur - APPCB","11-10-2024 21:00:00",14.675886,77.593027,OZONE,6,19,15
+India,Chhattisgarh,Bhilai,"32Bungalows, Bhilai - CECB","11-10-2024 21:00:00",21.194815,81.314770,OZONE,2,50,31
+India,Bihar,Muzaffarpur,"Muzaffarpur Collectorate, Muzaffarpur - BSPCB","11-10-2024 21:00:00",26.1209,85.3647,OZONE,27,56,53
+India,Assam,Guwahati,"LGBI Airport, Guwahati - PCBA","11-10-2024 21:00:00",26.10887,91.589544,OZONE,13,24,23
+India,Delhi,Delhi,"Nehru Nagar, Delhi - DPCC","11-10-2024 21:00:00",28.567890,77.250515,OZONE,8,189,120
+India,Delhi,Delhi,"Alipur, Delhi - DPCC","11-10-2024 21:00:00",28.815329,77.153010,OZONE,10,135,103
+India,Gujarat,Ahmedabad,"Maninagar, Ahmedabad - GPCB","11-10-2024 21:00:00",23.002657,72.591912,OZONE,14,102,70
+India,Gujarat,Ahmedabad,"Raikhad, Ahmedabad - IITM","11-10-2024 21:00:00",23.020509,72.579261,OZONE,6,57,44
+India,Gujarat,Ahmedabad,"SVPI Airport Hansol, Ahmedabad - IITM","11-10-2024 21:00:00",23.076793,72.627874,OZONE,13,29,21
+India,Gujarat,Ahmedabad,"Sardar Vallabhbhai Patel Stadium, Ahmedabad - IITM","11-10-2024 21:00:00",23.043070,72.562968,OZONE,9,46,35
+India,Delhi,Delhi,"Shadipur, Delhi - CPCB","11-10-2024 21:00:00",28.6514781,77.1473105,OZONE,18,308,30
+India,Delhi,Delhi,"Sonia Vihar, Delhi - DPCC","11-10-2024 21:00:00",28.710508,77.249485,OZONE,28,95,64
+India,Chhattisgarh,Kunjemura,"OP Jindal School, Kunjemura - CECB","11-10-2024 21:00:00",22.126650,83.483212,OZONE,1,6,3
+India,Delhi,Delhi,"Jahangirpuri, Delhi - DPCC","11-10-2024 21:00:00",28.732820,77.170633,OZONE,5,101,78
+India,Delhi,Delhi,"DTU, Delhi - CPCB","11-10-2024 21:00:00",28.7500499,77.1112615,OZONE,32,32,32
+India,Chhattisgarh,Raipur,"Siltara Phase-II, Raipur - CECB","11-10-2024 21:00:00",21.371751,81.664929,OZONE,3,8,5
+India,Karnataka,Bengaluru,"Shivapura_Peenya, Bengaluru - KSPCB","11-10-2024 21:00:00",13.0246342,77.5080115,OZONE,33,34,34
+India,Karnataka,Bengaluru,"Silk Board, Bengaluru - KSPCB","11-10-2024 21:00:00",12.917348,77.622813,OZONE,10,23,18
+India,Karnataka,Bidar,"Naubad, Bidar - KSPCB","11-10-2024 21:00:00",17.930306,77.482194,OZONE,6,17,13
+India,Haryana,Panchkula,"Sector-6, Panchkula - HSPCB ","11-10-2024 21:00:00",30.7057778,76.8531805555555,OZONE,12,35,29
+India,Haryana,"Yamuna Nagar","Gobind Pura, Yamuna Nagar - HSPCB","11-10-2024 21:00:00",30.1480566,77.2893471,OZONE,8,34,25
+India,Haryana,Faridabad,"New Industrial Town, Faridabad - HSPCB","11-10-2024 21:00:00",28.39072,77.30059,OZONE,12,71,49
+India,Gujarat,Gandhinagar,"GIFT City, Gandhinagar - IITM","11-10-2024 21:00:00",23.163798,72.677768,OZONE,5,31,27
+India,Haryana,Gurugram,"Sector-51, Gurugram - HSPCB","11-10-2024 21:00:00",28.4227,77.0667,OZONE,21,37,28
+India,Haryana,Ambala,"Patti Mehar, Ambala - HSPCB","11-10-2024 21:00:00",30.379589,76.778328,OZONE,13,21,14
+India,Karnataka,Belgaum,"Ramteerth Nagar, Belgaum - KSPCB","11-10-2024 21:00:00",15.888653,74.541751,OZONE,20,21,21
+India,Haryana,Panipat,"Sector-18, Panipat - HSPCB","11-10-2024 21:00:00",29.432304,76.972765,OZONE,30,30,30
+India,"Madhya Pradesh",Gwalior,"City Center, Gwalior - MPPCB","11-10-2024 21:00:00",26.203442,78.193251,OZONE,22,46,33
+India,"Madhya Pradesh",Gwalior,"Deen Dayal Nagar, Gwalior - MPPCB","11-10-2024 21:00:00",26.259242,78.216432,OZONE,5,148,83
+India,Karnataka,Karwar,"KHB Colony, Karwar - KSPCB","11-10-2024 21:00:00",14.816666,74.141003,OZONE,21,22,21
+India,Karnataka,Koppal,"Diwator Nagar, Koppal - KSPCB","11-10-2024 21:00:00",15.347630,76.181767,OZONE,NA,NA,NA
+India,"Madhya Pradesh",Bhopal,"Idgah Hills, Bhopal - MPPCB","11-10-2024 21:00:00",23.264759,77.381568,OZONE,43,87,74
+India,"Madhya Pradesh",Indore,"Regional Park, Indore - IMC","11-10-2024 21:00:00",22.6780,75.8559,OZONE,6,12,10
+India,"Madhya Pradesh",Jabalpur,"Marhatal, Jabalpur - MPPCB","11-10-2024 21:00:00",23.168606,79.932247,OZONE,1,18,10
+India,Karnataka,Chikkamagaluru,"Kalyana Nagara, Chikkamagaluru - KSPCB","11-10-2024 21:00:00",13.328028,75.797056,OZONE,22,52,32
+India,Karnataka,Shivamogga,"Vinoba Nagara, Shivamogga - KSPCB","11-10-2024 21:00:00",13.940000,75.555917,OZONE,6,19,16
+India,Karnataka,Hassan,"B.Katihalli, Hassan - KSPCB","11-10-2024 21:00:00",13.008556,76.125258,OZONE,2,23,3
+India,Kerala,Kollam,"Polayathode, Kollam - Kerala PCB","11-10-2024 21:00:00",8.8787,76.6073,OZONE,29,32,31
+India,Maharashtra,Mumbai,"Shivaji Nagar, Mumbai - BMC","11-10-2024 21:00:00",19.060498,72.923356,OZONE,7,73,48
+India,Maharashtra,Pimpri-Chinchwad,"Thergaon, Pimpri Chinchwad - MPCB","11-10-2024 21:00:00",18.616318,73.765797,OZONE,3,20,12
+India,"Madhya Pradesh",Ratlam,"Shasthri Nagar, Ratlam - IPCA Lab","11-10-2024 21:00:00",23.331731,75.045981,SO2,33,35,34
+India,"Madhya Pradesh",Sagar,"Deen Dayal Nagar, Sagar - MPPCB","11-10-2024 21:00:00",23.8640158,78.80289321,CO,32,42,37
+India,Maharashtra,Mumbai,"Byculla, Mumbai - BMC","11-10-2024 21:00:00",18.9767,72.8380,OZONE,1,95,62
+India,Maharashtra,Mumbai,"Chembur, Mumbai - MPCB","11-10-2024 21:00:00",19.0364585,72.8954371,OZONE,1,80,50
+India,Maharashtra,Mumbai,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB","11-10-2024 21:00:00",19.10078,72.87462,OZONE,7,8,7
+India,Maharashtra,"Navi Mumbai","Sector-19A Nerul, Navi Mumbai - IITM","11-10-2024 21:00:00",19.044,73.0325,OZONE,1,30,17
+India,Maharashtra,"Navi Mumbai","Sector-2E Kalamboli, Navi Mumbai - MPCB","11-10-2024 21:00:00",19.02579,73.10297,OZONE,2,27,16
+India,Maharashtra,Mumbai,"Deonar, Mumbai - IITM","11-10-2024 21:00:00",19.04946,72.9230,OZONE,1,57,56
+India,Maharashtra,Mumbai,"Ghatkopar, Mumbai - BMC","11-10-2024 21:00:00",19.083694,72.920967,OZONE,1,100,64
+India,"Madhya Pradesh",Singrauli,"Suryakiran Bhawan NCL, Singrauli - MPPCB","11-10-2024 21:00:00",24.108970,82.645580,OZONE,1,79,47
+India,Maharashtra,Mumbai,"Mulund West, Mumbai - MPCB","11-10-2024 21:00:00",19.1750,72.9419,OZONE,7,8,7
+India,Maharashtra,Mumbai,"Powai, Mumbai - MPCB","11-10-2024 21:00:00",19.137500,72.915056,OZONE,4,17,8
+India,Manipur,Imphal,"DM College of Science, Imphal - Manipur PCB","11-10-2024 21:00:00",24.8207389,93.9423085,OZONE,1,1,1
+India,Rajasthan,Ajmer,"Civil Lines,  Ajmer - RSPCB","11-10-2024 21:00:00",26.470859,74.646594,OZONE,11,15,14
+India,Rajasthan,Jaipur,"Adarsh Nagar, Jaipur - RSPCB","11-10-2024 21:00:00",26.902909,75.836858,OZONE,10,107,71
+India,Rajasthan,Jodhpur,"Digari Kalan, Jodhpur - RSPCB","11-10-2024 21:00:00",26.295810,73.082283,OZONE,9,85,58
+India,Rajasthan,Jodhpur,"Mandor, Jodhpur - RSPCB","11-10-2024 21:00:00",26.358805,73.047444,OZONE,23,88,60
+India,Rajasthan,Jodhpur,"Samrat Ashok Udhyan, Jodhpur - RSPCB","11-10-2024 21:00:00",26.253384,72.976571,OZONE,8,71,48
+India,Punjab,Jalandhar,"Civil Line, Jalandhar - PPCB","11-10-2024 21:00:00",31.321907,75.578914,OZONE,25,69,47
+India,Punjab,Khanna,"Kalal Majra, Khanna - PPCB","11-10-2024 21:00:00","30.736056 ",76.209694,OZONE,33,82,61
+India,Odisha,Byasanagar,"Ferro Chrome Colony, Byasanagar - OSPCB","11-10-2024 21:00:00",20.94185,86.11510,OZONE,6,38,27
+India,Rajasthan,Churu,"Subash Chowk, Churu - RSPCB","11-10-2024 21:00:00",28.296139,74.961696,OZONE,6,160,134
+India,Odisha,Rourkela,"Raghunathpali, Rourkela - OSPCB","11-10-2024 21:00:00",22.220833,84.809444,OZONE,9,10,10
+India,Rajasthan,Jhalawar,"Rajlaxmi Nagar, Jhalawar - RSPCB","11-10-2024 21:00:00",24.588397,76.172782,OZONE,12,74,48
+India,Punjab,"Mandi Gobindgarh","RIMT University, Mandi Gobindgarh - PPCB","11-10-2024 21:00:00",30.649961,76.331442,OZONE,48,62,51
+India,Telangana,Hyderabad,"Nacharam_TSIIC IALA, Hyderabad - TSPCB","11-10-2024 21:00:00",17.429398,78.569354,OZONE,12,42,22
+India,TamilNadu,Gummidipoondi,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB","11-10-2024 21:00:00",13.4127,80.1081,SO2,10,101,49
+India,TamilNadu,Chengalpattu,"Crescent University, Chengalpattu - TNPCB","11-10-2024 21:00:00",12.8777316,80.0834807,OZONE,5,6,6
+India,TamilNadu,Chennai,"Arumbakkam, Chennai - TNPCB","11-10-2024 21:00:00",13.0664,"80.2112 ",SO2,4,8,6
+India,TamilNadu,Thanjavur,"Parisutham Nagar, Thanjavur - TNPCB","11-10-2024 21:00:00",10.7654824,79.1389968,OZONE,5,17,9
+India,TamilNadu,Tirunelveli,"Municipal Corporation Office, Tirunelveli - TNPCB","11-10-2024 21:00:00",8.728442,77.6962,OZONE,6,7,6
+India,Telangana,Hyderabad,"ECIL Kapra, Hyderabad - TSPCB","11-10-2024 21:00:00",17.470431,78.566959,OZONE,35,98,62
+India,Telangana,Hyderabad,"IDA Pashamylaram, Hyderabad - TSPCB","11-10-2024 21:00:00",17.5316895,78.218939,OZONE,5,22,10
+India,Rajasthan,Kota,"Dhanmandi, Kota - RSPCB","11-10-2024 21:00:00",25.164090,75.858137,OZONE,10,72,52
+India,Rajasthan,Kota,"Nayapura, Kota - RSPCB","11-10-2024 21:00:00",25.196024,75.855668,OZONE,7,93,56
+India,Rajasthan,"Sri Ganganagar","Old City, Sri Ganganagar - RSPCB","11-10-2024 21:00:00",29.931624,73.864511,OZONE,39,98,80
+India,TamilNadu,Chennai,"Perungudi, Chennai - TNPCB","11-10-2024 21:00:00",12.9533,80.2357,OZONE,11,16,13
+India,Telangana,Hyderabad,"Kokapet, Hyderabad - TSPCB","11-10-2024 21:00:00",17.393559,78.339194,OZONE,4,6,6
+India,Telangana,Hyderabad,"Somajiguda, Hyderabad - TSPCB","11-10-2024 21:00:00",17.417094,78.457437,OZONE,24,46,41
+India,Uttar_Pradesh,Jhansi,"Shivaji Nagar, Jhansi - UPPCB","11-10-2024 21:00:00",25.4547,78.6039,OZONE,3,23,11
+India,Uttar_Pradesh,Kanpur,"FTI Kidwai Nagar, Kanpur - UPPCB","11-10-2024 21:00:00",26.428282,80.327067,OZONE,11,47,30
+India,Uttar_Pradesh,Kanpur,"Nehru Nagar, Kanpur - UPPCB","11-10-2024 21:00:00",26.4703136,80.3229863,OZONE,13,146,86
+India,Uttar_Pradesh,Agra,"Shastripuram, Agra - UPPCB","11-10-2024 21:00:00",27.19862,77.92066,OZONE,22,87,38
+India,Uttar_Pradesh,Bareilly,"Civil Lines, Bareilly - UPPCB","11-10-2024 21:00:00",28.359581,79.414455,OZONE,19,20,20
+India,Uttar_Pradesh,Agra,"Sector-3B Avas Vikas Colony, Agra - UPPCB","11-10-2024 21:00:00",27.19412,77.96237,OZONE,9,16,14
+India,Uttar_Pradesh,Ghaziabad,"Vasundhara, Ghaziabad - UPPCB","11-10-2024 21:00:00",28.6603346,77.3572563,OZONE,14,196,91
+India,Uttar_Pradesh,Ghaziabad,"Indirapuram, Ghaziabad - UPPCB","11-10-2024 21:00:00",28.646233,77.358075,OZONE,9,26,20
+India,Uttar_Pradesh,Firozabad,"Vibhab Nagar, Firozabad - UPPCB","11-10-2024 21:00:00",27.1594,78.3953,OZONE,12,18,16
+India,Uttar_Pradesh,Lucknow,"Lalbagh, Lucknow - CPCB","11-10-2024 21:00:00",26.8458805,80.9365541,OZONE,28,65,48
+India,Uttar_Pradesh,Noida,"Sector - 125, Noida - UPPCB","11-10-2024 21:00:00",28.5447608,77.3231257,OZONE,2,45,29
+India,West_Bengal,Durgapur,"Sidhu Kanhu Indoor Stadium, Durgapur - WBPCB","11-10-2024 21:00:00",23.5404352,87.2892225,OZONE,6,76,41
+India,West_Bengal,Haldia,"Priyambada Housing Estate, Haldia - WBPCB","11-10-2024 21:00:00",22.06047,88.109737,OZONE,20,29,24
+India,West_Bengal,Kolkata,"Bidhannagar, Kolkata - WBPCB","11-10-2024 21:00:00",22.58157048,88.41002457,OZONE,22,27,25
+India,West_Bengal,Kolkata,"Fort William, Kolkata - WBPCB","11-10-2024 21:00:00",22.556640,88.342674,OZONE,58,76,69
+India,Uttarakhand,Kashipur,"Govt. Girls Inter College, Kashipur - UKPCB","11-10-2024 21:00:00",29.2124114,78.9611753,OZONE,4,48,36
+India,West_Bengal,Asansol,"Mahabir Colliery, Asansol - WBPCB","11-10-2024 21:00:00",23.6181830,87.1057180,OZONE,10,72,45
+India,Uttar_Pradesh,Moradabad,"Buddhi Vihar, Moradabad - UPPCB","11-10-2024 21:00:00",28.83526,78.74460,OZONE,7,19,15
+India,West_Bengal,Howrah,"Botanical Garden, Howrah - WBPCB","11-10-2024 21:00:00",22.554954,88.292568,OZONE,11,40,30
+India,Uttar_Pradesh,Varanasi,"Maldahiya, Varanasi - UPPCB","11-10-2024 21:00:00",25.32393,82.99687,OZONE,2,10,8
+India,West_Bengal,Kolkata,"Rabindra Sarobar, Kolkata - WBPCB","11-10-2024 21:00:00",22.51106,88.35142,OZONE,7,25,19
+India,West_Bengal,Siliguri,"Ward-32 Bapupara, Siliguri - WBPCB","11-10-2024 21:00:00",26.6879226,88.4152495,OZONE,15,18,16
+India,Assam,Guwahati,"Pan Bazaar, Guwahati - PCBA","11-10-2024 21:00:00",26.187500,91.744194,CO,22,62,27
+India,Bihar,"Bihar Sharif","D M Colony, Bihar Sharif - BSPCB","11-10-2024 21:00:00",25.204762,85.514960,OZONE,21,37,29
+India,Bihar,Gaya,"Collectorate, Gaya - BSPCB","11-10-2024 21:00:00",24.7955,84.9994,OZONE,19,21,20
+India,Bihar,Patna,"IGSC Planetarium Complex, Patna - BSPCB","11-10-2024 21:00:00",25.610369,85.132568,OZONE,16,102,20
+India,Chhattisgarh,Milupara,"Govt. Higher Secondary School, Milupara - CECB","11-10-2024 21:00:00",22.1910172,83.5197009,OZONE,1,34,17
+India,Chhattisgarh,Raipur,"AIIMS, Raipur - CECB","11-10-2024 21:00:00",21.258815,81.578979,OZONE,NA,NA,NA
+India,Andhra_Pradesh,Chittoor,"Gangineni Cheruvu, Chittoor - APPCB","11-10-2024 21:00:00",13.204880,79.097889,CO,22,32,27
+India,Andhra_Pradesh,Rajamahendravaram,"Anand Kala Kshetram, Rajamahendravaram - APPCB","11-10-2024 21:00:00",16.9872867,81.7363176,OZONE,7,8,7
+India,Assam,Byrnihat,"Central Academy for SFS, Byrnihat - PCBA","11-10-2024 21:00:00",26.071318,91.87488,OZONE,21,138,23
+India,Chandigarh,Chandigarh,"Sector-53, Chandigarh - CPCC","11-10-2024 21:00:00",30.719859,76.738637,OZONE,8,75,53
+India,Bihar,Arrah,"New DM Office, Arrah - BSPCB","11-10-2024 21:00:00",25.5626095,84.663264,OZONE,10,258,183
+India,Bihar,Bettiah,"Kamalnath Nagar, Bettiah - BSPCB","11-10-2024 21:00:00",26.80365,84.51954,OZONE,24,35,30
+India,Delhi,Delhi,"Mundka, Delhi - DPCC","11-10-2024 21:00:00",28.684678,77.076574,OZONE,1,93,69
+India,Delhi,Delhi,"IHBAS, Dilshad Garden, Delhi - CPCB","11-10-2024 21:00:00",28.6811736,77.3025234,OZONE,22,26,24
+India,Delhi,Delhi,"ITO, Delhi - CPCB","11-10-2024 21:00:00",28.628624,77.241060,OZONE,10,69,53
+India,Delhi,Delhi,"Bawana, Delhi - DPCC","11-10-2024 21:00:00",28.776200,77.051074,OZONE,5,106,77
+India,Karnataka,Bengaluru,"Kasturi Nagar, Bengaluru - KSPCB","11-10-2024 21:00:00",13.003872,77.664217,OZONE,54,54,54
+India,Karnataka,Bengaluru,"Sanegurava Halli, Bengaluru - KSPCB","11-10-2024 21:00:00",12.990328,77.5431385,CO,8,28,21
+India,Haryana,Gurugram,"Vikas Sadan, Gurugram - HSPCB","11-10-2024 21:00:00",28.4501238,77.0263051,OZONE,7,69,44
+India,Haryana,Hisar,"Urban Estate-II, Hisar - HSPCB","11-10-2024 21:00:00",29.140560,75.744941,OZONE,17,48,40
+India,Gujarat,Gandhinagar,"Sector-10, Gandhinagar - GPCB","11-10-2024 21:00:00",23.221714,72.654328,OZONE,7,22,18
+India,Gujarat,Ahmedabad,"Chandkheda, Ahmedabad - IITM","11-10-2024 21:00:00",23.107969,72.574648,OZONE,22,57,45
+India,Delhi,Delhi,"Patparganj, Delhi - DPCC","11-10-2024 21:00:00",28.623763,77.287209,OZONE,3,86,48
+India,Delhi,Delhi,"Pusa, Delhi - DPCC","11-10-2024 21:00:00",28.639652,77.146275,OZONE,2,19,13
+India,Karnataka,Dharwad,"Kalabhavan, Dharwad - KSPCB","11-10-2024 21:00:00",15.459706,75.008381,OZONE,18,21,18
+India,Karnataka,Gadag,"Panchal Nagar, Gadag - KSPCB","11-10-2024 21:00:00",15.411456,75.638133,OZONE,17,29,26
+India,"Madhya Pradesh",Damoh,"Shrivastav Colony, Damoh - MPPCB","11-10-2024 21:00:00",23.81748678,79.446246,CO,26,27,27
+India,"Madhya Pradesh",Dewas,"Bhopal Chauraha, Dewas - MPPCB","11-10-2024 21:00:00",22.9682591,76.064118,OZONE,32,61,49
+India,Maharashtra,Belapur,"CBD Belapur, Belapur - MPCB","11-10-2024 21:00:00",19.0243902,73.0406721,OZONE,14,76,52
+India,"Madhya Pradesh",Katni,"Gole Bazar, Katni - MPPCB","11-10-2024 21:00:00",23.50016,80.23284,OZONE,7,166,111
+India,"Madhya Pradesh",Maihar,"Sahilara, Maihar - KJS Cements","11-10-2024 21:00:00",24.2613009,80.7231783,CO,48,54,50
+India,Karnataka,Hubballi,"Deshpande Nagar, Hubballi - KSPCB","11-10-2024 21:00:00",15.351773,75.140726,OZONE,14,17,16
+India,Karnataka,Hubballi,"Lingaraj Nagar, Hubballi - KSPCB","11-10-2024 21:00:00",15.3714823,75.1160168,OZONE,10,32,23
+India,Karnataka,Kalaburagi,"Lal Bahadur Shastri Nagar, Kalaburagi - KSPCB","11-10-2024 21:00:00",17.321993,76.822628,OZONE,7,8,7
+India,Karnataka,Raichur,"Haji Colony, Raichur - KSPCB","11-10-2024 21:00:00",16.208139,77.348417,OZONE,2,7,4
+India,"Madhya Pradesh",Sagar,"Civil Lines, Sagar - MPPCB","11-10-2024 21:00:00",23.838586,78.759431,OZONE,58,178,124
+India,Kerala,Eloor,"Udyogamandal, Eloor - Kerala PCB","11-10-2024 21:00:00",10.073232,76.302765,OZONE,10,12,11
+India,Karnataka,Tumakuru,"Thimmalapura, Tumakuru - KSPCB","11-10-2024 21:00:00",13.377516,77.099072,OZONE,NA,NA,NA
+India,Maharashtra,Nashik,"MIDC Ambad, Nashik - MPCB","11-10-2024 21:00:00",19.950220,73.731480,OZONE,4,29,15
+India,Maharashtra,Bhiwandi,"Gokul Nagar, Bhiwandi - MPCB","11-10-2024 21:00:00",19.309073,73.057223,OZONE,9,51,31
+India,Maharashtra,Boisar,"Khaira, Boisar - MPCB","11-10-2024 21:00:00",19.786089,72.757971,OZONE,9,30,24
+India,Maharashtra,Chandrapur,"MIDC Khutala, Chandrapur - MPCB","11-10-2024 21:00:00",19.9775302,79.2337086,OZONE,1,11,6
+India,Maharashtra,Mumbai,"Malad West, Mumbai - IITM","11-10-2024 21:00:00",19.19709,72.82204,OZONE,3,94,68
+India,Maharashtra,Nagpur,"Mahal, Nagpur - MPCB","11-10-2024 21:00:00",21.14472,79.107595,OZONE,3,23,16
+India,Maharashtra,Nagpur,"Opp GPO Civil Lines, Nagpur - MPCB","11-10-2024 21:00:00",21.152875,79.0517531,OZONE,4,38,14
+India,Maharashtra,Mumbai,"Colaba, Mumbai - MPCB","11-10-2024 21:00:00",18.910000,72.820000,OZONE,10,11,11
+India,Maharashtra,Mumbai,"Borivali East, Mumbai - MPCB","11-10-2024 21:00:00",19.2243333,72.8658113,OZONE,2,4,3
+India,Maharashtra,Kolhapur,"Sinchan Bhavan, Kolhapur - MPCB","11-10-2024 21:00:00",16.7143745,74.2426398,OZONE,2,28,21
+India,Maharashtra,Jalna,"Old MIDC, Jalna - MPCB","11-10-2024 21:00:00",19.854616,75.905894,OZONE,35,44,40
+India,Maharashtra,Mumbai,"Bandra Kurla Complex, Mumbai - MPCB","11-10-2024 21:00:00",19.065931,72.862131,OZONE,42,50,45
+India,Maharashtra,Pune,"Savitribai Phule Pune University, Pune - MPCB","11-10-2024 21:00:00",18.547056,73.826908,OZONE,4,30,20
+India,Maharashtra,Solapur,"Ratandeep Housing Society, Solapur - MPCB","11-10-2024 21:00:00",17.65439,75.90649,OZONE,9,27,21
+India,Odisha,Nayagarh,"Dabuna, Nayagarh - OSPCB","11-10-2024 21:00:00",21.847279,85.416905,OZONE,5,20,14
+India,Odisha,Suakati,"OMC Colony, Suakati - OSPCB","11-10-2024 21:00:00",21.606865,85.510538,OZONE,9,64,40
+India,Maharashtra,Parbhani,"Masoom Colony, Parbhani - MPCB","11-10-2024 21:00:00",19.265594,76.761463,OZONE,14,56,41
+India,Maharashtra,Pimpri-Chinchwad,"Gavalinagar, Pimpri Chinchwad - MPCB","11-10-2024 21:00:00",18.63673,73.82487,OZONE,1,15,8
+India,Maharashtra,Nashik,"Pandav Nagari, Nashik - MPCB","11-10-2024 21:00:00",19.9591346,73.7788008,OZONE,1,34,19
+India,Maharashtra,"Navi Mumbai","Mahape, Navi Mumbai - MPCB","11-10-2024 21:00:00",19.1135051,73.008978,OZONE,13,19,15
+India,Maharashtra,"Navi Mumbai","Nerul, Navi Mumbai - MPCB","11-10-2024 21:00:00",19.008751,73.016620,OZONE,19,27,21
+India,Mizoram,Aizawl,"Sikulpuikawn, Aizawl - Mizoram PCB","11-10-2024 21:00:00",23.7176342,92.7192841,OZONE,17,69,31
+India,Nagaland,Kohima,"PWD Juction, Kohima - NPCB","11-10-2024 21:00:00",25.6635413,94.0989878,OZONE,7,12,8
+India,Manipur,Imphal,"Manipur University, Imphal - Manipur PCB","11-10-2024 21:00:00",24.7524239,93.9286218,OZONE,1,9,5
+India,Odisha,Baripada,"Meher Colony, Baripada - OSPCB","11-10-2024 21:00:00",21.941841,86.728318,OZONE,8,55,33
+India,Puducherry,Puducherry,"Jawahar Nagar, Puducherry - PPCC","11-10-2024 21:00:00",11.9309,79.8027,OZONE,20,42,37
+India,Maharashtra,"Navi Mumbai","Sanpada, Navi Mumbai - MPCB","11-10-2024 21:00:00",19.0575752,73.0151367,OZONE,1,58,36
+India,Rajasthan,Kota,"Shrinath Puram, Kota - RSPCB","11-10-2024 21:00:00",25.14389,75.821256,OZONE,15,49,40
+India,Rajasthan,Bhiwadi,"RIICO Ind. Area III, Bhiwadi - RSPCB","11-10-2024 21:00:00",28.194909,76.862296,OZONE,10,55,30
+India,Punjab,Rupnagar,"Ratanpura, Rupnagar - Ambuja Cements","11-10-2024 21:00:00",31.0325454,76.5623046,CO,40,62,49
+India,Rajasthan,Jaipur,"Shastri Nagar, Jaipur - RSPCB","11-10-2024 21:00:00",26.9502929,75.730943,OZONE,12,56,34
+India,Rajasthan,Jaisalmer,"Sadar Bazar, Jaisalmer - RSPCB","11-10-2024 21:00:00",26.912329,70.909168,OZONE,17,89,61
+India,TamilNadu,Chennai,"Manali Village, Chennai - TNPCB","11-10-2024 21:00:00",13.1662,80.2584,OZONE,31,51,33
+India,TamilNadu,Chennai,"Manali, Chennai - CPCB","11-10-2024 21:00:00",13.164544,80.26285,OZONE,20,27,26
+India,Rajasthan,Hanumangarh,"Housing Board, Hanumangarh - RSPCB","11-10-2024 21:00:00",29.610750,74.283608,OZONE,2,89,63
+India,Rajasthan,Jaipur,"Mansarovar Sector-12, Jaipur - RSPCB","11-10-2024 21:00:00",26.843698,75.766894,OZONE,12,247,142
+India,Rajasthan,Udaipur,"Ashok Nagar, Udaipur - RSPCB","11-10-2024 21:00:00",24.5886166,73.6321397,OZONE,8,55,36
+India,Rajasthan,Sikar,"Radhakishan Pura, Sikar - RSPCB","11-10-2024 21:00:00",27.608912,75.153302,OZONE,4,78,57
+India,Uttar_Pradesh,Moradabad,"Transport Nagar, Moradabad - UPPCB","11-10-2024 21:00:00",28.802625,78.753728,OZONE,15,32,25
+India,Uttar_Pradesh,Agra,"Sanjay Palace, Agra - UPPCB","11-10-2024 21:00:00",27.19865833,78.00598056,OZONE,12,23,18
+India,TamilNadu,Cuddalore,"Semmandalam, Cuddalore - TNPCB","11-10-2024 21:00:00",11.7637683,79.7499835,NH3,1,2,1
+India,Telangana,Hyderabad,"Zoo Park, Hyderabad - TSPCB","11-10-2024 21:00:00",17.349694,78.451437,OZONE,16,27,20
+India,Tripura,Agartala,"Bardowali, Agartala - Tripura SPCB","11-10-2024 21:00:00",23.8175497,91.2726974,OZONE,5,42,17
+India,Uttar_Pradesh,Agra,"Manoharpur, Agra - UPPCB","11-10-2024 21:00:00",27.23711,78.01936,OZONE,4,37,30
+India,Telangana,Hyderabad,"Sanathnagar, Hyderabad - TSPCB","11-10-2024 21:00:00",17.4559458,78.4332152,OZONE,11,16,12
+India,Uttar_Pradesh,Noida,"Sector-116, Noida - UPPCB","11-10-2024 21:00:00",28.569230,77.393848,OZONE,25,118,82
+India,Uttar_Pradesh,Prayagraj,"Jhunsi, Prayagraj - UPPCB","11-10-2024 21:00:00",25.425602,81.917152,OZONE,5,37,26
+India,Uttar_Pradesh,Prayagraj,"Motilal Nehru NIT, Prayagraj - UPPCB","11-10-2024 21:00:00",25.494,81.863,OZONE,4,22,17
+India,Uttar_Pradesh,Kanpur,"NSI Kalyanpur, Kanpur - UPPCB","11-10-2024 21:00:00",26.509954,80.249612,OZONE,10,17,12
+India,Uttar_Pradesh,Khurja,"Kalindi Kunj, Khurja - UPPCB","11-10-2024 21:00:00",28.2348927,77.8683002,OZONE,1,3,2
+India,Uttar_Pradesh,"Greater Noida","Knowledge Park - III, Greater Noida - UPPCB","11-10-2024 21:00:00",28.47272,77.482000,OZONE,13,113,76
+India,Uttar_Pradesh,Meerut,"Pallavpuram Phase 2, Meerut - UPPCB","11-10-2024 21:00:00",29.063510,77.709723,OZONE,17,132,100
+India,Uttar_Pradesh,Varanasi,"Ardhali Bazar, Varanasi - UPPCB","11-10-2024 21:00:00",25.3505986,82.9083074,OZONE,15,41,29
+India,Uttar_Pradesh,Varanasi,"IESD Banaras Hindu University, Varanasi - UPPCB","11-10-2024 21:00:00",25.262326,82.995408,OZONE,5,21,11
+India,West_Bengal,Kolkata,"Jadavpur, Kolkata - WBPCB","11-10-2024 21:00:00",22.49929,88.36917,OZONE,8,27,18
+India,Assam,Guwahati,"Railway Colony, Guwahati - PCBA","11-10-2024 21:00:00",26.181742,91.78063,OZONE,3,4,4
+India,Bihar,Munger,"Town Hall, Munger - BSPCB","11-10-2024 21:00:00",25.376776,86.471523,OZONE,8,13,11
+India,Bihar,Muzaffarpur,"Buddha Colony, Muzaffarpur - BSPCB","11-10-2024 21:00:00",26.11442,85.39813,OZONE,41,118,96
+India,Bihar,Kishanganj,"SDM Office_Khagra, Kishanganj - BSPCB","11-10-2024 21:00:00",26.0881305,87.93840336,OZONE,18,21,19
+India,Bihar,Motihari,"Gandak Colony, Motihari - BSPCB","11-10-2024 21:00:00",26.63086,84.90051,OZONE,19,41,32
+India,Chhattisgarh,Raipur,"Bhatagaon New ISBT, Raipur - CECB","11-10-2024 21:00:00",21.219665,81.630094,OZONE,3,4,4
+India,Delhi,Delhi,"Anand Vihar, Delhi - DPCC","11-10-2024 21:00:00",28.647622,77.3158090,OZONE,44,73,63
+India,Bihar,Chhapra,"Darshan Nagar, Chhapra - BSPCB","11-10-2024 21:00:00",25.7808257,84.7446768,OZONE,1,16,3
+India,Chandigarh,Chandigarh,"Sector-25, Chandigarh - CPCC","11-10-2024 21:00:00",30.751462,76.762879,OZONE,6,120,60
+India,Bihar,Saharsa,"Police Line, Saharsa - BSPCB","11-10-2024 21:00:00",25.892357,86.590325,OZONE,4,21,14
+India,Andhra_Pradesh,Tirupati,"Tirumala, Tirupati - APPCB","11-10-2024 21:00:00",13.67,79.35,OZONE,7,34,27
+India,Bihar,Sasaram,"Dada Peer, Sasaram - BSPCB","11-10-2024 21:00:00",24.952822,84.002396,OZONE,1,10,5
+India,Haryana,Gurugram,"NISE Gwal Pahari, Gurugram - IMD","11-10-2024 21:00:00",28.422681,77.148944,OZONE,NA,NA,NA
+India,Delhi,Delhi,"Lodhi Road, Delhi - IMD","11-10-2024 21:00:00",28.5918245,77.2273074,OZONE,5,43,25
+India,Delhi,Delhi,"Major Dhyan Chand National Stadium, Delhi - DPCC","11-10-2024 21:00:00",28.611281,77.237738,OZONE,6,96,39
+India,Gujarat,Vapi,"Phase-1 GIDC, Vapi - GPCB","11-10-2024 21:00:00",20.362421,72.918013,OZONE,4,4,4
+India,Delhi,Delhi,"Punjabi Bagh, Delhi - DPCC","11-10-2024 21:00:00",28.674045,77.131023,OZONE,12,122,86
+India,Delhi,Delhi,"Pusa, Delhi - IMD","11-10-2024 21:00:00",28.636110,77.173332,OZONE,6,49,44
+India,Haryana,Dharuhera,"Municipal Corporation Office, Dharuhera -  HSPCB","11-10-2024 21:00:00",28.206800,76.799700,OZONE,10,76,46
+India,Haryana,Faridabad,"Sector 30, Faridabad - HSPCB","11-10-2024 21:00:00",28.4417,77.3217,OZONE,14,70,49
+India,Haryana,Bhiwani,"H.B. Colony, Bhiwani - HSPCB","11-10-2024 21:00:00",28.806223,76.141105,OZONE,2,266,36
+India,Haryana,"Charkhi Dadri","Mini Secretariat, Charkhi Dadri - HSPCB","11-10-2024 21:00:00",28.593883,76.270653,OZONE,14,17,15
+India,Gujarat,Ahmedabad,"SAC ISRO Satellite, Ahmedabad - IITM","11-10-2024 21:00:00",23.023389,72.515201,OZONE,10,67,53
+India,Delhi,Delhi,"Vivek Vihar, Delhi - DPCC","11-10-2024 21:00:00",28.672342,77.315260,OZONE,25,99,80
+India,Haryana,Manesar,"Sector-2 IMT, Manesar - HSPCB","11-10-2024 21:00:00",28.360699,76.936090,OZONE,NA,NA,NA
+India,Kerala,Thiruvananthapuram,"Kariavattom, Thiruvananthapuram - Kerala PCB","11-10-2024 21:00:00",8.563700,76.886500,OZONE,36,36,36
+India,Karnataka,Chamarajanagar,"Urban, Chamarajanagar - KSPCB","11-10-2024 21:00:00",11.55358,76.55521,OZONE,14,39,28
+India,Karnataka,Davanagere,"Devaraj Urs Badavane, Davanagere - KSPCB","11-10-2024 21:00:00",14.475800,75.905200,OZONE,NA,NA,NA
+India,Jharkhand,Jorapokhar,"Tata Stadium, Jorapokhar - JSPCB","11-10-2024 21:00:00",23.707909,86.414670,OZONE,NA,NA,NA
+India,Karnataka,Bengaluru,"BTM Layout, Bengaluru - CPCB","11-10-2024 21:00:00",12.9135218,77.5950804,OZONE,26,27,26
+India,Haryana,Rohtak,"MD University, Rohtak - HSPCB","11-10-2024 21:00:00",28.52123,76.37138,OZONE,44,53,50
+India,Haryana,Sirsa,"F-Block, Sirsa - HSPCB","11-10-2024 21:00:00",29.536400,75.015800,OZONE,58,232,101
+India,Karnataka,Bengaluru,"Hebbal, Bengaluru - KSPCB","11-10-2024 21:00:00",13.029152,77.585901,OZONE,5,7,6
+India,Karnataka,Bengaluru,"Hombegowda Nagar, Bengaluru - KSPCB","11-10-2024 21:00:00",12.938539,77.590100,OZONE,7,37,27
+India,Karnataka,Haveri,"Ashwini Nagar, Haveri - KSPCB","11-10-2024 21:00:00",14.791800,75.389600,OZONE,17,17,17
+India,Karnataka,Yadgir,"Collector Office, Yadgir - KSPCB","11-10-2024 21:00:00",16.7602,77.1428,OZONE,18,19,19
+India,Karnataka,Mangalore,"Kadri, Mangalore - KSPCB","11-10-2024 21:00:00",12.889250,74.853000,OZONE,22,23,23
+India,Jammu_and_Kashmir,Srinagar,"Rajbagh, Srinagar - JKSPCB","11-10-2024 21:00:00",34.066206,74.819820,OZONE,12,13,12
+India,Maharashtra,Aurangabad,"More Chowk Waluj, Aurangabad - MPCB","11-10-2024 21:00:00",19.8389439,75.244448,OZONE,6,41,19
+India,Maharashtra,Badlapur,"Katrap, Badlapur - MPCB","11-10-2024 21:00:00",19.16485,73.23409,OZONE,1,36,35
+India,"Madhya Pradesh",Pithampur,"Sector-2 Industrial Area, Pithampur - MPPCB","11-10-2024 21:00:00",22.624758,75.675238,OZONE,18,47,41
+India,"Madhya Pradesh",Satna,"Bandhavgar Colony, Satna - Birla Cement","11-10-2024 21:00:00",24.58434363,80.8549414,OZONE,14,27,19
+India,"Madhya Pradesh",Indore,"Chhoti Gwaltoli, Indore - MPPCB","11-10-2024 21:00:00",22.4310,75.5213,OZONE,11,70,59
+India,"Madhya Pradesh",Bhopal,"Paryavaran Parisar, Bhopal - MPPCB","11-10-2024 21:00:00",23.210494,77.425409,OZONE,13,72,55
+India,"Madhya Pradesh",Bhopal,"T T Nagar, Bhopal - MPPCB","11-10-2024 21:00:00",23.233584,77.400574,OZONE,55,110,90
+India,Maharashtra,Chandrapur,"Chauhan Colony, Chandrapur - MPCB","11-10-2024 21:00:00",19.962900,79.298714,OZONE,36,50,39
+India,Maharashtra,Amravati,"Shivneri Colony, Amravati - MPCB","11-10-2024 21:00:00",20.9402359,77.7895248,OZONE,14,40,29
+India,Maharashtra,Amravati,"Shri Shivaji Science College, Amaravati - MPCB","11-10-2024 21:00:00",20.939198,77.765701,OZONE,19,40,36
+India,Maharashtra,Aurangabad,"MIDC Chilkalthana, Aurangabad - MPCB","11-10-2024 21:00:00",19.875620,75.387310,OZONE,8,18,16
+India,"Madhya Pradesh",Ujjain,"Mahakaleshwar Temple, Ujjain - MPPCB","11-10-2024 21:00:00","23.182719 ","75.768218 ",OZONE,67,73,68
+India,"Madhya Pradesh",Jabalpur,"Gupteshwar, Jabalpur - JMC","11-10-2024 21:00:00",23.142888,79.916147,OZONE,7,140,94
+India,"Madhya Pradesh",Mandideep,"Sector-D Industrial Area, Mandideep - MPPCB","11-10-2024 21:00:00",23.108440,77.511428,OZONE,29,33,30
+India,Maharashtra,Dhule,"Deopur, Dhule - MPCB","11-10-2024 21:00:00",20.918946,74.776388,OZONE,8,30,19
+India,Maharashtra,Pimpri-Chinchwad,"Savta Mali Nagar, Pimpri-Chinchwad - IITM","11-10-2024 21:00:00",18.614767,73.799516,OZONE,NA,NA,NA
+India,Maharashtra,Pune,"Bhumkar Nagar, Pune - IITM","11-10-2024 21:00:00",18.605770,73.749976,OZONE,3,25,15
+India,Maharashtra,Mumbai,"Sion, Mumbai - MPCB","11-10-2024 21:00:00",19.047000,72.874600,OZONE,NA,NA,NA
+India,Maharashtra,Mumbai,"Vile Parle West, Mumbai - MPCB","11-10-2024 21:00:00",19.10861,72.83622,OZONE,2,4,3
+India,Maharashtra,Mumbai,"Borivali East, Mumbai - IITM","11-10-2024 21:00:00",19.23241,72.86895,OZONE,4,92,57
+India,Maharashtra,Latur,"Sawe Wadi, Latur - MPCB","11-10-2024 21:00:00",18.39963,76.57452,OZONE,2,42,21
+India,Maharashtra,Mumbai,"Kherwadi_Bandra East, Mumbai - MPCB","11-10-2024 21:00:00",19.0632143,72.8456324,OZONE,1,40,22
+India,Maharashtra,Nashik,"Hirawadi, Nashik - MPCB","11-10-2024 21:00:00",20.021503,73.813844,OZONE,8,38,21
+India,Odisha,Talcher,"Talcher Coalfields,Talcher - OSPCB","11-10-2024 21:00:00",20.9360711,85.1707021,OZONE,25,43,31
+India,Rajasthan,Barmer,"Railway Colony, Barmer - RSPCB","11-10-2024 21:00:00",25.747299,71.393989,OZONE,21,117,87
+India,Maharashtra,Pune,"Transport Nagar-Nigdi, Pune - IITM","11-10-2024 21:00:00",18.664282,73.763966,OZONE,NA,NA,NA
+India,Meghalaya,Shillong,"Lumpyngngad, Shillong - Meghalaya PCB","11-10-2024 21:00:00",25.5586,91.8985,OZONE,65,98,85
+India,Odisha,Angul,"Hakimapada, Angul - OSPCB","11-10-2024 21:00:00",20.832874,85.104082,OZONE,15,69,44
+India,Maharashtra,Thane,"Kasarvadavali, Thane - MPCB","11-10-2024 21:00:00",19.26777,72.97182,OZONE,14,62,29
+India,Maharashtra,Thane,"Pimpleshwar Mandir, Thane - MPCB","11-10-2024 21:00:00",19.192056,72.9585188,OZONE,12,31,19
+India,Maharashtra,Thane,"Upvan Fort, Thane - MPCB","11-10-2024 21:00:00",19.222279,72.957979,OZONE,1,94,55
+India,Odisha,Barbil,"Forest Office, Barbil - OSPCB","11-10-2024 21:00:00",22.1166054,85.3945546,OZONE,3,47,29
+India,Odisha,Bhubaneswar,"Lingraj Mandir, Bhubaneswar - OSPCB","11-10-2024 21:00:00",20.240790,85.836784,OZONE,10,26,22
+India,Odisha,Cuttack,"CDA Area, Cuttack - OSPCB","11-10-2024 21:00:00","20.48891     ","85.84768     ",OZONE,7,30,23
+India,Rajasthan,Banswara,"Rati Talai, Banswara - RSPCB","11-10-2024 21:00:00",23.555190,74.440010,OZONE,3,75,40
+India,Rajasthan,Baran,"Bamboliya, Baran - RSPCB","11-10-2024 21:00:00",25.106006,76.469948,OZONE,11,106,79
+India,Maharashtra,Virar,"Bolinj, Virar - MPCB","11-10-2024 21:00:00",19.4458210,72.7988231,OZONE,5,57,40
+India,Rajasthan,Chittorgarh,"Shastri Nagar, Chittorgarh - RSPCB","11-10-2024 21:00:00",24.892047,74.623527,OZONE,1,85,41
+India,Rajasthan,Tonk,"Shastri Nagar, Tonk - RSPCB","11-10-2024 21:00:00",26.159933,75.780517,OZONE,22,79,57
+India,Sikkim,Gangtok,"Zero Point GICI, Gangtok - SSPCB","11-10-2024 21:00:00",27.338530,88.614099,OZONE,17,55,32
+India,TamilNadu,Coimbatore,"PSG College of Arts and Science, Coimbatore - TNPCB","11-10-2024 21:00:00",11.0328,77.0349,OZONE,NA,NA,NA
+India,TamilNadu,Cuddalore,"Kudikadu, Cuddalore - TNPCB","11-10-2024 21:00:00",11.6829898,79.7532099,OZONE,4,4,4
+India,Rajasthan,Jaipur,"Sector-2 Murlipura, Jaipur - RSPCB","11-10-2024 21:00:00",26.960669,75.771817,OZONE,8,83,51
+India,Rajasthan,Jhunjhunu,"Indra Nagar, Jhunjhunu - RSPCB","11-10-2024 21:00:00",28.108988,75.386577,OZONE,8,145,109
+India,Rajasthan,Pali,"Indira Colony Vistar, Pali - RSPCB","11-10-2024 21:00:00",25.771061," 73.340227",OZONE,21,35,31
+India,TamilNadu,Chennai,"Royapuram, Chennai - TNPCB","11-10-2024 21:00:00",13.1036,80.2909,OZONE,8,18,15
+India,Rajasthan,Bikaner,"MM Ground, Bikaner - RSPCB","11-10-2024 21:00:00",28.018792,73.292658,OZONE,4,99,64
+India,Rajasthan,Sirohi,"Vedhaynath Colony, Sirohi - RSPCB","11-10-2024 21:00:00",24.885261,72.857549,OZONE,4,83,52
+India,Uttar_Pradesh,Lucknow,"Talkatora District Industries Center, Lucknow - CPCB","11-10-2024 21:00:00",26.83399722,80.8917361,OZONE,1,45,25
+India,Uttar_Pradesh,Ghaziabad,"Loni, Ghaziabad - UPPCB","11-10-2024 21:00:00",28.757294,77.278792,OZONE,7,41,33
+India,Uttar_Pradesh,Ghaziabad,"Sanjay Nagar, Ghaziabad - UPPCB","11-10-2024 21:00:00",28.685382,77.453839,OZONE,18,97,70
+India,TamilNadu,Madurai,"Uchapatti, Madurai - TNPCB","11-10-2024 21:00:00",9.865935,78.022669,OZONE,6,6,6
+India,TamilNadu,Ooty,"Bombay Castel, Ooty - TNPCB","11-10-2024 21:00:00",11.4068288,76.7138973,OZONE,5,6,5
+India,TamilNadu,Palkalaiperur,"Bharathidasan University, Palkalaiperur - TNPCB","11-10-2024 21:00:00",10.681158,78.741746,CO,10,10,10
+India,TamilNadu,Vellore,"Vasanthapuram, Vellore - TNPCB","11-10-2024 21:00:00",12.909494,79.131861,CO,2,2,2
+India,Uttar_Pradesh,Lucknow,"B R Ambedkar University, Lucknow - UPPCB","11-10-2024 21:00:00",26.766433,80.927299,OZONE,6,29,19
+India,Uttar_Pradesh,Lucknow,"Gomti Nagar, Lucknow - UPPCB","11-10-2024 21:00:00",26.868120,81.005119,OZONE,36,47,44
+India,Uttar_Pradesh,"Greater Noida","Knowledge Park - V, Greater Noida - UPPCB","11-10-2024 21:00:00",28.557054,77.453663,OZONE,8,89,36
+India,TamilNadu,Karur,"Kamadenu Nagar, Karur - TNPCB","11-10-2024 21:00:00",10.967820,78.080882,OZONE,7,8,8
+India,Uttar_Pradesh,Firozabad,"Nagla Bhau, Firozabad - UPPCB","11-10-2024 21:00:00",27.168897,78.376960,OZONE,18,20,19
+India,Uttar_Pradesh,Lucknow,"Kukrail Picnic Spot-1, Lucknow - UPPCB","11-10-2024 21:00:00",26.90723,80.98579,OZONE,6,36,23
+India,Uttar_Pradesh,Noida,"Sector-1, Noida - UPPCB","11-10-2024 21:00:00",28.5898,77.3101,OZONE,4,45,32
+India,Uttarakhand,Rishikesh,"Shivaji Nagar, Rishikesh - UKPCB","11-10-2024 21:00:00",30.075911,78.2859547,OZONE,8,68,38
+India,West_Bengal,Asansol,"Trivenidevi Bhalotia College, Asansol - WBPCB","11-10-2024 21:00:00",23.616515,87.119133,OZONE,5,87,53
+India,Andhra_Pradesh,Vijayawada,"Kanuru, Vijayawada - APPCB","11-10-2024 21:00:00",16.486692,80.699436,OZONE,33,40,38
+India,Andhra_Pradesh,Visakhapatnam,"GVM Corporation, Visakhapatnam - APPCB","11-10-2024 21:00:00",17.72,83.3,OZONE,9,25,11
+India,Assam,Silchar,"Tarapur, Silchar - PCBA","11-10-2024 21:00:00",24.82827,92.79525,OZONE,2,2,2
+India,Assam,Sivasagar,"Girls College, Sivasagar - PCBA","11-10-2024 21:00:00",26.987634,94.636574,OZONE,1,1,1
+India,Bihar,Samastipur,"DM Office_Kasipur, Samastipur - BSPCB","11-10-2024 21:00:00",25.859655,85.77944,OZONE,1,3,3
+India,Bihar,Siwan,"Chitragupta Nagar, Siwan - BSPCB","11-10-2024 21:00:00",26.2271665,84.3570427,OZONE,3,51,24
+India,Bihar,Purnia,"Mariam Nagar, Purnia - BSPCB","11-10-2024 21:00:00",25.366336,87.117468,OZONE,6,22,16
+India,Bihar,Rajgir,"Dangi Tola, Rajgir - BSPCB","11-10-2024 21:00:00",25.03280,85.41948,OZONE,32,36,34
+India,Andhra_Pradesh,Kadapa,"Yerramukkapalli, Kadapa - APPCB","11-10-2024 21:00:00",14.465052,78.824187,CO,29,37,32
+India,Bihar,Begusarai,"Lohiyanagar, Begusarai - BSPCB (Formerly known as DRCC Anandpur)","11-10-2024 21:00:00",25.42742023,86.13886079,OZONE,6,34,26
+India,Bihar,Muzaffarpur,"MIT-Daudpur Kothi, Muzaffarpur - BSPCB","11-10-2024 21:00:00",26.1403345,85.3650192,OZONE,24,34,28
+India,Bihar,Katihar,"Mirchaibari, Katihar - BSPCB","11-10-2024 21:00:00",25.560083,87.553265,OZONE,30,32,31
+India,Assam,Guwahati,"IITG, Guwahati - PCBA","11-10-2024 21:00:00",26.2028636,91.70046436,OZONE,3,29,19
+India,Assam,Nalbari,"Bata Chowk, Nalbari - PCBA","11-10-2024 21:00:00",26.446912,91.439057,OZONE,9,16,13
+India,Delhi,Delhi,"Dwarka-Sector 8, Delhi - DPCC ","11-10-2024 21:00:00",28.5710274,77.0719006,OZONE,10,71,50
+India,Delhi,Delhi,"IGI Airport (T3), Delhi - IMD","11-10-2024 21:00:00",28.5627763,77.1180053,OZONE,3,48,32
+India,Chhattisgarh,Bhilai,"Civic Center, Bhilai - Bhilai Steel Plant","11-10-2024 21:00:00",21.185571,81.343175,OZONE,8,22,16
+India,Chhattisgarh,Bilaspur,"Mangala, Bilaspur - NTPC","11-10-2024 21:00:00",22.08815,82.13737,CO,39,49,45
+India,Delhi,Delhi,"Chandni Chowk, Delhi - IITM","11-10-2024 21:00:00",28.656756,77.227234,OZONE,10,65,38
+India,Delhi,Delhi,"Dr. Karni Singh Shooting Range, Delhi - DPCC","11-10-2024 21:00:00",28.498571,77.264840,OZONE,6,187,113
+India,Delhi,Delhi,"Sri Aurobindo Marg, Delhi - DPCC","11-10-2024 21:00:00",28.531346,77.190156,OZONE,9,70,51
+India,Gujarat,Ahmedabad,"Gyaspur, Ahmedabad - IITM","11-10-2024 21:00:00",22.977134,72.553024,OZONE,23,45,40
+India,Chhattisgarh,Korba,"Rampur, Korba - CECB","11-10-2024 21:00:00",22.368195,82.746431,OZONE,4,6,5
+India,Delhi,Delhi,"Rohini, Delhi - DPCC","11-10-2024 21:00:00",28.732528,77.119920,OZONE,8,97,60
+India,Delhi,Delhi,"Narela, Delhi - DPCC","11-10-2024 21:00:00",28.822836,77.101981,OZONE,17,149,112
+India,Delhi,Delhi,"Aya Nagar, Delhi - IMD","11-10-2024 21:00:00",28.4706914,77.1099364,OZONE,18,88,58
+India,Haryana,Faridabad,"Sector 11, Faridabad - HSPCB","11-10-2024 21:00:00",28.376058,77.315741,OZONE,4,37,18
+India,Haryana,Fatehabad,"Huda Sector, Fatehabad - HSPCB","11-10-2024 21:00:00",29.503664,75.467934,OZONE,20,98,68
+India,Karnataka,Bengaluru,"City Railway Station, Bengaluru - KSPCB","11-10-2024 21:00:00",12.9756843,77.5660749,CO,58,78,68
+India,Haryana,Kurukshetra,"Sector-7, Kurukshetra - HSPCB","11-10-2024 21:00:00",29.966942,76.875879,OZONE,35,129,93
+India,Haryana,Mandikhera,"General Hospital, Mandikhera - HSPCB","11-10-2024 21:00:00",27.9002,76.9938,OZONE,19,31,25
+India,Haryana,Narnaul,"Shastri Nagar, Narnaul - HSPCB","11-10-2024 21:00:00",28.060249,76.113115,OZONE,4,126,61
+India,Gujarat,Surat,"Science Center, Surat - SMC","11-10-2024 21:00:00",21.170046,72.795405,CO,62,84,69
+India,Gujarat,Vatva,"Phase-4 GIDC, Vatva - GPCB","11-10-2024 21:00:00",22.969611,72.643500,OZONE,6,15,12
+India,Karnataka,Bengaluru,"Jayanagar 5th Block, Bengaluru - KSPCB","11-10-2024 21:00:00",12.920984,77.584908,OZONE,16,22,19
+India,Karnataka,Bengaluru,"Jigani, Bengaluru - KSPCB","11-10-2024 21:00:00",12.7816279,77.6299145,OZONE,15,16,16
+India,Haryana,Jind,"Police Lines, Jind - HSPCB","11-10-2024 21:00:00",29.307814,76.337619,OZONE,30,95,78
+India,Haryana,Kaithal,"Rishi Nagar, Kaithal - HSPCB","11-10-2024 21:00:00",29.8006,76.4155,OZONE,18,43,33
+India,Haryana,Ballabgarh,"Nathu Colony, Ballabgarh - HSPCB","11-10-2024 21:00:00",28.3419248,77.319699,OZONE,6,109,24
+India,Haryana,Gurugram,"Teri Gram, Gurugram - HSPCB","11-10-2024 21:00:00",28.4275,77.1465,OZONE,11,30,22
+India,Haryana,Palwal,"Shyam Nagar, Palwal - HSPCB","11-10-2024 21:00:00",28.1485564,77.3320667,OZONE,5,8,6
+India,Karnataka,Kolar,"Tamaka Ind. Area, Kolar - KSPCB","11-10-2024 21:00:00",13.1276288,78.1570122,OZONE,11,31,25
+India,"Madhya Pradesh",Indore,"Maguda Nagar, Indore - IMC","11-10-2024 21:00:00",22.7524,75.8872,OZONE,1,3,2
+India,"Madhya Pradesh",Jabalpur,"Govindh Bhavan Colony, Jabalpur - JMC","11-10-2024 21:00:00",23.163174,79.973061,OZONE,17,171,102
+India,Karnataka,Vijayapura,"Ibrahimpur, Vijayapura - KSPCB","11-10-2024 21:00:00",16.802639,75.722694,OZONE,13,16,15
+India,Maharashtra,Mumbai,"Kandivali East, Mumbai - MPCB","11-10-2024 21:00:00",19.205800,72.868200,OZONE,11,12,11
+India,Maharashtra,Mumbai,"Kandivali West, Mumbai - BMC","11-10-2024 21:00:00",19.215859,72.831718,OZONE,NA,NA,NA
+India,Karnataka,Chikkaballapur,"Chikkaballapur Rural, Chikkaballapur - KSPCB","11-10-2024 21:00:00",13.428828,77.731418,OZONE,21,23,22
+India,"Madhya Pradesh",Jabalpur,"Suhagi, Jabalpur - JMC","11-10-2024 21:00:00",23.218135,79.957770,OZONE,1,68,42
+India,Maharashtra,Jalgaon,"Prabhat Colony, Jalgaon - MPCB","11-10-2024 21:00:00",21.001264,75.565602,OZONE,1,27,10
+India,Maharashtra,Akola,"Ramdaspeth, Akola - MPCB","11-10-2024 21:00:00",20.719516,77.000253,OZONE,2,24,17
+India,"Madhya Pradesh",Gwalior,"Maharaj Bada, Gwalior - MPPCB","11-10-2024 21:00:00",26.200388,78.147714,OZONE,22,51,41
+India,Maharashtra,Solapur,"Solapur, Solapur - MPCB","11-10-2024 21:00:00",17.6599188,75.9063906,SO2,3,83,31
+India,Maharashtra,Pune,"Karve Road, Pune - MPCB","11-10-2024 21:00:00",18.5011743,73.8165527,OZONE,2,35,15
+India,Maharashtra,Pune,"Mhada Colony, Pune - IITM","11-10-2024 21:00:00",18.573040,73.927715,OZONE,11,38,32
+India,Maharashtra,Pune,"Panchawati_Pashan, Pune - IITM","11-10-2024 21:00:00",18.536457,73.805454,OZONE,4,51,25
+India,Maharashtra,Mumbai,"Vasai West, Mumbai - MPCB","11-10-2024 21:00:00",19.383200,72.820400,OZONE,7,7,7
+India,Maharashtra,Mumbai,"Worli, Mumbai - MPCB","11-10-2024 21:00:00",18.9936162,72.8128113,OZONE,5,10,7
+India,Maharashtra,Nagpur,"Ambazari, Nagpur - MPCB","11-10-2024 21:00:00",21.121801,79.04952,OZONE,1,40,22
+India,Maharashtra,Mumbai,"Kurla, Mumbai - MPCB","11-10-2024 21:00:00",19.0863,72.8888,OZONE,14,15,15
+India,Maharashtra,Mumbai,"Mazgaon, Mumbai - IITM","11-10-2024 21:00:00",18.96702,72.84214,OZONE,5,130,85
+India,Maharashtra,Nagpur,"Ram Nagar, Nagpur - MPCB","11-10-2024 21:00:00",21.143383,79.048912,OZONE,7,57,39
+India,Maharashtra,Nanded,"Sneh Nagar, Nanded - MPCB","11-10-2024 21:00:00",19.173852,77.296291,OZONE,14,56,40
+India,Maharashtra,Mumbai,"Mindspace-Malad West, Mumbai - MPCB","11-10-2024 21:00:00",19.1878657,72.8304069,OZONE,11,133,91
+India,Maharashtra,"Navi Mumbai","Kopripada-Vashi, Navi Mumbai - MPCB","11-10-2024 21:00:00",19.090337,73.014232,OZONE,5,81,56
+India,Maharashtra,Ulhasnagar,"Sidhi Vinayak Nagar, Ulhasnagar - MPCB","11-10-2024 21:00:00",19.235581,73.159121,OZONE,7,82,47
+India,Maharashtra,Mumbai,"Sewri, Mumbai - BMC","11-10-2024 21:00:00",19.000084,72.856730,OZONE,1,68,42
+India,Rajasthan,Bharatpur,"Krishna Nagar, Bharatpur - RSPCB","11-10-2024 21:00:00",27.215415,77.50873,OZONE,40,170,131
+India,Rajasthan,Bhilwara,"Pratap Nagar, Bhilwara - RSPCB","11-10-2024 21:00:00",25.339605,74.618883,OZONE,7,80,53
+India,Rajasthan,Bhiwadi,"Vasundhara Nagar_UIT, Bhiwadi - RSPCB","11-10-2024 21:00:00",28.207266,76.829265,OZONE,3,123,44
+India,Odisha,Keonjhar,"Jagamohanpur, Keonjhar - OSPCB","11-10-2024 21:00:00",21.643900,85.599355,OZONE,13,22,16
+India,Odisha,Rairangpur,"Divisional Forest Office, Rairangpur - OSPCB","11-10-2024 21:00:00",22.265816,86.174829,OZONE,1,38,26
+India,Odisha,Rourkela,"Fertilizer Township, Rourkela - OSPCB","11-10-2024 21:00:00",22.18972222,84.86277778,CO,NA,NA,NA
+India,Odisha,Bileipada,"Tata Township, Bileipada - OSPCB","11-10-2024 21:00:00",22.06156703,85.47409613,OZONE,32,36,34
+India,Odisha,Brajrajnagar,"GM Office, Brajrajnagar - OSPCB","11-10-2024 21:00:00",21.8004996,83.8396977,OZONE,25,28,26
+India,Punjab,Amritsar,"Golden Temple, Amritsar - PPCB","11-10-2024 21:00:00",31.620000,74.876512,OZONE,43,164,65
+India,Punjab,Bathinda,"Hardev Nagar, Bathinda - PPCB","11-10-2024 21:00:00",30.233011,74.907758,CO,13,142,70
+India,Odisha,Tensa,"Barsua Iron Ore Mines, Tensa - OSPCB","11-10-2024 21:00:00",21.869985,85.167016,OZONE,10,33,31
+India,Rajasthan,Alwar,"Moti Doongri, Alwar - RSPCB","11-10-2024 21:00:00",27.554793,76.611536,OZONE,16,74,44
+India,Rajasthan,Jalore,"Mudtra Sili, Jalore - RSPCB","11-10-2024 21:00:00",25.344694,72.626208,OZONE,23,96,63
+India,Rajasthan,Bundi,"New Colony, Bundi - RSPCB","11-10-2024 21:00:00",25.435774,75.644272,OZONE,17,82,62
+India,Odisha,Bhubaneswar,"Patia, Bhubaneswar - OSPCB","11-10-2024 21:00:00",20.34652,85.81630,OZONE,2,40,28
+India,TamilNadu,Dindigul,"Mendonsa Colony, Dindigul - TNPCB","11-10-2024 21:00:00",10.358535,77.984321,SO2,NA,NA,NA
+India,TamilNadu,Ariyalur,"Keelapalur, Ariyalur - TNPCB","11-10-2024 21:00:00",11.06825,79.07033,SO2,8,9,9
+India,Telangana,Hyderabad,"ICRISAT Patancheru, Hyderabad - TSPCB","11-10-2024 21:00:00",17.518400,78.278777,OZONE,7,30,23
+India,Telangana,Hyderabad,"IITH Kandi, Hyderabad - TSPCB","11-10-2024 21:00:00",17.585705,78.126199,OZONE,31,37,37
+India,TamilNadu,Ramanathapuram,"Chalai Bazaar, Ramanathapuram - TNPCB","11-10-2024 21:00:00",9.36399,78.831977,OZONE,13,14,14
+India,TamilNadu,Salem,"Sona College of Technology, Salem - TNPCB","11-10-2024 21:00:00",11.679111,78.125052,OZONE,16,17,16
+India,Rajasthan,Pratapgarh,"Pragati Nagar, Pratapgarh - RSPCB","11-10-2024 21:00:00",24.041198,74.780702,OZONE,26,85,79
+India,Rajasthan,"Sawai Madhopur","Sahu Nagar, Sawai Madhopur - RSPCB","11-10-2024 21:00:00",26.031443,76.359327,OZONE,5,90,56
+India,Telangana,Hyderabad,"Bollaram Industrial Area, Hyderabad - TSPCB","11-10-2024 21:00:00",17.540891,78.358528,OZONE,34,36,35
+India,Telangana,Hyderabad,"Central University, Hyderabad - TSPCB","11-10-2024 21:00:00",17.460103,78.334361,OZONE,3,5,4
+India,Rajasthan,Jodhpur,"Collectorate, Jodhpur - RSPCB","11-10-2024 21:00:00",26.268249,73.0193853,OZONE,19,21,20
+India,TamilNadu,Chennai,"Velachery Res. Area, Chennai - CPCB","11-10-2024 21:00:00",13.0052189,80.2398125,OZONE,1,3,1
+India,TamilNadu,Pudukottai,"SIPCOT Nathampannai, Pudukottai - TNPCB","11-10-2024 21:00:00",10.423417,78.784889,OZONE,1,1,1
+India,Uttar_Pradesh,Moradabad,"Eco Herbal Park, Moradabad - UPPCB","11-10-2024 21:00:00",28.840739,78.697531,OZONE,20,83,55
+India,Uttar_Pradesh,Moradabad,"Employment Office, Moradabad - UPPCB","11-10-2024 21:00:00",28.88528,78.73880,OZONE,13,99,52
+India,Uttar_Pradesh,Moradabad,"Jigar Colony, Moradabad - UPPCB","11-10-2024 21:00:00",28.856664,78.772638,OZONE,19,25,22
+India,Uttar_Pradesh,Bareilly,"Rajendra Nagar, Bareilly - UPPCB","11-10-2024 21:00:00",28.38910936,79.42963708,OZONE,1,10,4
+India,Uttar_Pradesh,Bulandshahr,"Yamunapuram, Bulandshahr - UPPCB","11-10-2024 21:00:00",28.406963,77.849831,OZONE,4,47,32
+India,Uttar_Pradesh,Moradabad,"Kashiram Nagar, Moradabad - UPPCB","11-10-2024 21:00:00",28.849399,78.742362,OZONE,6,41,10
+India,Uttarakhand,Dehradun,"Doon University, Dehradun - UKPCB","11-10-2024 21:00:00",30.269444,78.044167,OZONE,7,43,34
+India,Uttar_Pradesh,Gorakhpur,"Madan Mohan Malaviya University of Technology, Gorakhpur - UPPCB","11-10-2024 21:00:00",26.730136,83.433859,OZONE,14,27,21
+India,Telangana,Hyderabad,"Kompally Municipal Office, Hyderabad - TSPCB","11-10-2024 21:00:00",17.544899,78.486949,OZONE,18,42,35
+India,Uttar_Pradesh,Agra,"Shahjahan Garden, Agra - UPPCB","11-10-2024 21:00:00",27.169338,78.03582,OZONE,NA,NA,NA
+India,Uttar_Pradesh,Varanasi,"Bhelupur, Varanasi - UPPCB","11-10-2024 21:00:00",25.301778,82.996789,OZONE,1,10,5
+India,Uttar_Pradesh,Agra,"Rohta, Agra - UPPCB","11-10-2024 21:00:00",27.106972,78.000111,OZONE,14,15,14
+India,West_Bengal,Asansol,"Evelyn Lodge, Asansol - WBPCB","11-10-2024 21:00:00",23.6979360,86.9443950,OZONE,5,30,15
+India,West_Bengal,Barrackpore,"SVSPA Campus, Barrackpore - WBPCB","11-10-2024 21:00:00",22.7605581,88.3617589,OZONE,5,42,28
+India,West_Bengal,Kolkata,"Rabindra Bharati University, Kolkata - WBPCB","11-10-2024 21:00:00",22.627847,88.380669,OZONE,11,29,20
+India,Bihar,Aurangabad,"Gurdeo Nagar, Aurangabad - BSPCB","11-10-2024 21:00:00",24.75746,84.366208,OZONE,9,89,67
+India,Bihar,Bhagalpur,"DM Office_Kachari Chowk, Bhagalpur - BSPCB","11-10-2024 21:00:00",25.251013,86.989001,OZONE,7,10,8
+India,Andhra_Pradesh,Vijayawada,"Rajiv Gandhi Park, Vijayawada - APPCB","11-10-2024 21:00:00",16.509717,80.612222,OZONE,29,38,35
+India,Bihar,Bhagalpur,"Mayaganj, Bhagalpur - BSPCB","11-10-2024 21:00:00",25.265194,87.012947,OZONE,NA,NA,NA
+India,Bihar,Buxar,"Charitra Van, Buxar - BSPCB (Formerly known as Central Jail)","11-10-2024 21:00:00",25.567520,83.966379,OZONE,6,81,54
+India,Bihar,Patna,"Samanpura, Patna - BSPCB","11-10-2024 21:00:00",25.596727,85.085624,OZONE,1,8,1
+India,Andhra_Pradesh,Tirupati,"Vaikuntapuram, Tirupati - APPCB","11-10-2024 21:00:00",13.615387,79.409230,OZONE,22,57,47
+India,Andhra_Pradesh,Vijayawada,"HB Colony, Vijayawada - APPCB","11-10-2024 21:00:00",16.536107,80.594233,OZONE,8,18,13
+India,Bihar,Gaya,"Kareemganj, Gaya - BSPCB","11-10-2024 21:00:00",24.792403,84.992416,OZONE,7,62,29
+India,Bihar,Gaya,"SFTI Kusdihra, Gaya - BSPCB","11-10-2024 21:00:00",24.762518,84.982348,OZONE,11,61,52
+India,Bihar,Patna,"Muradpur, Patna - BSPCB","11-10-2024 21:00:00",25.619651,85.147382,OZONE,5,62,45
+India,Bihar,Patna,"Rajbansi Nagar, Patna - BSPCB","11-10-2024 21:00:00",25.599486,85.113666,OZONE,2,48,14
+India,Andhra_Pradesh,Amaravati,"Secretariat, Amaravati - APPCB","11-10-2024 21:00:00",16.5150833,80.5181667,OZONE,2,25,12
+India,Chandigarh,Chandigarh,"Sector 22, Chandigarh - CPCC","11-10-2024 21:00:00",30.735567,76.775714,OZONE,8,135,75
+India,Bihar,Araria,"Kharahiya Basti, Araria - BSPCB","11-10-2024 21:00:00",26.146529,87.454184,OZONE,1,31,18
+India,Delhi,Delhi,"R K Puram, Delhi - DPCC","11-10-2024 21:00:00",28.563262,77.186937,OZONE,19,81,49
+India,Delhi,Delhi,"Sirifort, Delhi - CPCB","11-10-2024 21:00:00",28.5504249,77.2159377,OZONE,26,35,29
+India,Delhi,Delhi,"Jawaharlal Nehru Stadium, Delhi - DPCC","11-10-2024 21:00:00",28.580280,77.233829,OZONE,26,83,38
+India,Delhi,Delhi,"Mandir Marg, Delhi - DPCC","11-10-2024 21:00:00",28.636429,77.201067,OZONE,5,81,56
+India,Delhi,Delhi,"North Campus, DU, Delhi - IMD","11-10-2024 21:00:00",28.6573814,77.1585447,OZONE,4,43,30
+India,Delhi,Delhi,"Okhla Phase-2, Delhi - DPCC","11-10-2024 21:00:00",28.530785,77.271255,OZONE,5,83,54
+India,Delhi,Delhi,"Burari Crossing, Delhi - IMD","11-10-2024 21:00:00",28.7256504,77.2011573,OZONE,13,58,39
+India,Delhi,Delhi,"NSIT Dwarka, Delhi - CPCB","11-10-2024 21:00:00",28.60909,77.0325413,OZONE,7,36,24
+India,Delhi,Delhi,"Najafgarh, Delhi - DPCC","11-10-2024 21:00:00",28.570173,76.933762,OZONE,10,15,13
+India,Chhattisgarh,Korba,"Urja Nagar, Korba - CECB","11-10-2024 21:00:00",22.348441,82.549611,OZONE,35,36,35
+India,Chhattisgarh,Raipur,"Krishak Nagar, Raipur - CECB","11-10-2024 21:00:00",21.237755,81.705301,OZONE,3,14,7
+India,Delhi,Delhi,"Wazirpur, Delhi - DPCC","11-10-2024 21:00:00",28.699793,77.165453,OZONE,43,102,82
+India,Delhi,Delhi,"Ashok Vihar, Delhi - DPCC","11-10-2024 21:00:00",28.695381,77.181665,OZONE,20,90,74
+India,Karnataka,Bengaluru,"Bapuji Nagar, Bengaluru - KSPCB","11-10-2024 21:00:00",12.951913,77.539784,OZONE,27,52,39
+India,Gujarat,Ankleshwar,"GIDC, Ankleshwar - GPCB","11-10-2024 21:00:00",21.613267,73.010555,OZONE,21,31,27
+India,Haryana,Faridabad,"Sector- 16A, Faridabad - HSPCB","11-10-2024 21:00:00",28.4088421,77.3099081,OZONE,NA,NA,NA
+India,Haryana,Bahadurgarh,"Arya Nagar, Bahadurgarh - HSPCB","11-10-2024 21:00:00",28.6701,76.9254,OZONE,16,21,17
+India,Gujarat,Ahmedabad,"Rakhial, Ahmedabad - IITM","11-10-2024 21:00:00",23.016834,72.625775,OZONE,10,59,42
+India,"Himachal Pradesh",Baddi,"HIMUDA Complex Phase-1, Baddi - HPPCB","11-10-2024 21:00:00",30.943887,76.801991,OZONE,9,139,108
+India,Haryana,Karnal,"Sector-12, Karnal - HSPCB","11-10-2024 21:00:00",29.695300,77.002700,OZONE,42,86,73
+India,Haryana,Sonipat,"Murthal, Sonipat - HSPCB","11-10-2024 21:00:00",29.027200,77.062100,OZONE,16,35,23
+India,Karnataka,Bagalkot,"Vidayagiri, Bagalkot - KSPCB","11-10-2024 21:00:00",16.172806,75.659694,OZONE,4,13,9
+India,"Madhya Pradesh",Indore,"Residency Area, Indore - IMC","11-10-2024 21:00:00",22.7084,75.8815,OZONE,10,13,12
+India,Karnataka,Kalaburagi,"Mahatma Basaveswar Colony, Kalaburgi - KSPCB","11-10-2024 21:00:00",17.336318,76.847397,OZONE,2,9,5
+India,Karnataka,Madikeri,"Stuart Hill, Madikeri - KSPCB","11-10-2024 21:00:00",12.415911,75.735050,OZONE,3,8,5
+India,Karnataka,Mysuru,"Hebbal 1st Stage, Mysuru - KSPCB","11-10-2024 21:00:00",12.21041,76.37376,OZONE,5,64,47
+India,Karnataka,Ramanagara,"Vijay Nagar, Ramanagara - KSPCB","11-10-2024 21:00:00",12.733409,77.298051,OZONE,18,32,30
+India,Karnataka,Udupi,"Brahmagiri, Udupi - KSPCB","11-10-2024 21:00:00",13.34194444,74.74694444,OZONE,22,25,23
+India,Kerala,Thiruvananthapuram,"Plammoodu, Thiruvananthapuram - Kerala PCB","11-10-2024 21:00:00",8.5149093,76.9435879,OZONE,4,20,10
+India,Kerala,Thrissur,"Corporation Ground, Thrissur - Kerala PCB","11-10-2024 21:00:00",10.532400,76.215900,OZONE,NA,NA,NA
+India,Karnataka,Bengaluru,"Peenya, Bengaluru - CPCB","11-10-2024 21:00:00",13.0270199,77.494094,OZONE,28,29,29
+India,"Madhya Pradesh",Indore,"Airport Area, Indore - IMC","11-10-2024 21:00:00",22.7289,75.8076,OZONE,2,6,5
+India,Maharashtra,Aurangabad,"Rachnakar Colony, Aurangabad - MPCB","11-10-2024 21:00:00",19.863756,75.321188,OZONE,14,65,44
+India,Maharashtra,Ahmednagar,"Tarakpur, Ahmednagar - MPCB","11-10-2024 21:00:00",19.10122,74.73339,OZONE,6,33,24
+India,Maharashtra,Malegaon,"Mahesh Nagar, Malegaon - MPCB","11-10-2024 21:00:00",20.555712,74.529236,OZONE,11,25,20
+India,Maharashtra,Mira-Bhayandar,"Bhayandar West, Mira-Bhayandar - MPCB","11-10-2024 21:00:00",19.296481,72.840923,OZONE,1,53,35
+India,Maharashtra,Pune,"Alandi, Pune - IITM","11-10-2024 21:00:00",18.675076,73.892743,OZONE,11,44,29
+India,Maharashtra,Pune,"Katraj Dairy, Pune - MPCB","11-10-2024 21:00:00",18.454450,73.854155,OZONE,16,51,37
+India,Maharashtra,Kolhapur,"Shivaji University, Kolhapur - MPCB","11-10-2024 21:00:00",16.6870449,74.2505872,OZONE,1,49,33
+India,Maharashtra,Mahad,"Kamble Tarf Birwadi, Mahad - MPCB","11-10-2024 21:00:00",18.1023399,73.4783687,OZONE,15,41,39
+India,Maharashtra,Pune,"Revenue Colony-Shivajinagar, Pune - IITM","11-10-2024 21:00:00",18.530085,73.849598,OZONE,4,18,9
+India,Maharashtra,Mumbai,"Navy Nagar-Colaba, Mumbai - IITM","11-10-2024 21:00:00",18.897756,72.813320,OZONE,12,154,112
+India,Maharashtra,Pimpri-Chinchwad,"Park Street Wakad, Pimpri Chinchwad - MPCB","11-10-2024 21:00:00",18.59051,73.77946,OZONE,2,22,10
+India,Maharashtra,Mumbai,"Khindipada-Bhandup West, Mumbai - IITM","11-10-2024 21:00:00",19.1653323,72.922099,OZONE,5,101,60
+India,Maharashtra,"Navi Mumbai","Tondare-Taloja, Navi Mumbai - MPCB","11-10-2024 21:00:00",19.0630,73.1209,OZONE,NA,NA,NA
+India,Maharashtra,Kalyan,"Khadakpada, Kalyan - MPCB","11-10-2024 21:00:00",19.25292,73.142019,OZONE,4,7,6
+India,Odisha,Balasore,"Kalidaspur, Balasore - OSPCB","11-10-2024 21:00:00",21.51161,86.89088,OZONE,13,50,34
+India,Rajasthan,Dholpur,"Raja Ganj, Dholpur - RSPCB","11-10-2024 21:00:00",26.699557,77.898881,OZONE,4,59,48
+India,Rajasthan,Dungarpur,"Bhoiwada, Dungarpur - RSPCB","11-10-2024 21:00:00",23.837789,73.714926,OZONE,17,90,68
+India,Rajasthan,Jodhpur,"Jhalamand, Jodhpur - RSPCB","11-10-2024 21:00:00",26.215415,73.070156,OZONE,38,63,53
+India,Rajasthan,Karauli,"Satyawati Vihar, Karauli - RSPCB","11-10-2024 21:00:00",26.506177,77.025989,OZONE,10,171,119
+India,Rajasthan,Jaipur,"Police Commissionerate, Jaipur - RSPCB","11-10-2024 21:00:00",26.9164092,75.7994901,OZONE,23,59,34
+India,Rajasthan,Jaipur,"RIICO Sitapura, Jaipur - RSPCB","11-10-2024 21:00:00",26.786682,75.827928,OZONE,11,130,76
+India,Maharashtra,Sangli,"Vijay Nagar, Sangli - MPCB","11-10-2024 21:00:00"," 16.5038",74.3623,OZONE,2,41,36
+India,Maharashtra,Solapur,"Dnyaneshwar Nagar, Solapur - MPCB","11-10-2024 21:00:00",17.6336264,75.9132495,OZONE,8,17,15
+India,Punjab,Ludhiana,"Punjab Agricultural University, Ludhiana - PPCB","11-10-2024 21:00:00",30.9028,75.8086,OZONE,26,37,31
+India,Punjab,Patiala,"Model Town, Patiala - PPCB","11-10-2024 21:00:00",30.349388,76.366642,OZONE,12,81,65
+India,Rajasthan,Dausa,"Khatikan Mohalla, Dausa - RSPCB","11-10-2024 21:00:00",26.895552,76.334753,OZONE,6,154,57
+India,TamilNadu,Virudhunagar,"Collectorate Office, Virudhunagar - TNPCB","11-10-2024 21:00:00",9.559382,77.948828,CO,8,11,10
+India,Rajasthan,Nagaur,"Karni Colony, Nagaur - RSPCB","11-10-2024 21:00:00",27.213494,73.734444,OZONE,23,77,55
+India,Rajasthan,Rajsamand,"Dhoinda, Rajsamand - RSPCB","11-10-2024 21:00:00",25.036360,73.883502,OZONE,34,88,69
+India,TamilNadu,Thoothukudi,"Meelavittan, Thoothukudi - TNPCB","11-10-2024 21:00:00","8.816428 ",78.099039,OZONE,19,48,31
+India,TamilNadu,Tirupur,"Kumaran College, Tirupur - TNPCB","11-10-2024 21:00:00",11.0973603,77.3228673,OZONE,7,7,7
+India,TamilNadu,Chennai,"Alandur Bus Depot, Chennai - CPCB","11-10-2024 21:00:00",12.9099161,80.1076538,OZONE,7,10,10
+India,TamilNadu,Chennai,"Kodungaiyur, Chennai - TNPCB","11-10-2024 21:00:00",13.1278,80.2642,OZONE,4,18,13
+India,Telangana,Hyderabad,"Ramachandrapuram, Hyderabad - TSPCB","11-10-2024 21:00:00",17.528544,78.286195,OZONE,3,13,10
+India,TamilNadu,Coimbatore,"SIDCO Kurichi, Coimbatore - TNPCB","11-10-2024 21:00:00",10.942451,76.978996,OZONE,13,30,25
+India,TamilNadu,Kanchipuram,"Kilambi, Kanchipuram - TNPCB","11-10-2024 21:00:00",12.864618,79.659968,OZONE,5,24,12
+India,Telangana,Hyderabad,"New Malakpet, Hyderabad - TSPCB","11-10-2024 21:00:00",17.37206,78.50864,OZONE,20,32,28
+India,Uttar_Pradesh,Baghpat,"Sardar Patel Inter College, Baghpat - UPPCB","11-10-2024 21:00:00",28.964949,77.278761,OZONE,7,38,29
+India,Uttar_Pradesh,Noida,"Sector - 62, Noida - IMD","11-10-2024 21:00:00",28.6245479,77.3577104,OZONE,29,69,56
+India,Uttar_Pradesh,Meerut,"Ganga Nagar, Meerut - UPPCB","11-10-2024 21:00:00",28.999264,77.7590354,OZONE,39,149,108
+India,Uttar_Pradesh,Meerut,"Jai Bhim Nagar, Meerut - UPPCB","11-10-2024 21:00:00",28.9535882,77.7622941,OZONE,51,178,130
+India,Uttar_Pradesh,Hapur,"Anand Vihar, Hapur - UPPCB","11-10-2024 21:00:00",28.725645,77.749675,OZONE,34,187,141
+India,West_Bengal,Durgapur,"PCBL Residential Complex, Durgapur - WBPCB","11-10-2024 21:00:00",23.5087640,87.3544400,OZONE,1,21,11
+India,Uttar_Pradesh,Muzaffarnagar,"New Mandi, Muzaffarnagar - UPPCB","11-10-2024 21:00:00",29.4723508,77.7194031,OZONE,28,219,98
+India,West_Bengal,Asansol,"Asansol Court Area, Asansol - WBPCB","11-10-2024 21:00:00",23.685297,86.945968,OZONE,11,51,39
+India,Uttar_Pradesh,Prayagraj,"Nagar Nigam, Prayagraj - UPPCB","11-10-2024 21:00:00","25.44919916 ","81.82735986 ",OZONE,10,11,11
+India,Uttar_Pradesh,Vrindavan,"Omex Eternity, Vrindavan - UPPCB","11-10-2024 21:00:00",27.5714090,77.6557570,OZONE,13,15,14
+India,West_Bengal,Howrah,"Belur Math, Howrah - WBPCB","11-10-2024 21:00:00",22.629801,88.352017,OZONE,11,20,15
+India,West_Bengal,Howrah,"Ghusuri, Howrah - WBPCB","11-10-2024 21:00:00",22.611968,88.347422,OZONE,22,35,30
+India,West_Bengal,Howrah,"Padmapukur, Howrah - WBPCB","11-10-2024 21:00:00",22.5687319,88.2797276,OZONE,12,24,20
+India,West_Bengal,Kolkata,"Ballygunge, Kolkata - WBPCB","11-10-2024 21:00:00",22.5367507,88.3638022,OZONE,14,39,32
+India,West_Bengal,Kolkata,"Victoria, Kolkata - WBPCB","11-10-2024 21:00:00",22.5448082,88.3403691,OZONE,12,38,27
