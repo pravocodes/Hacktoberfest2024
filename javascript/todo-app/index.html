@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" />
+  </head>
+  <body>
+    <div class="container" role="main">
+        <h1>
+            To Do App
+            <button id="toggleDarkMode" aria-label="Toggle dark mode">🌙</button>
+          </h1>
+      <div class="submit">
+        <input type="text" id="input" placeholder="Add a new task" aria-label="New task input" />
+        <button type="button" id="addbtn" onclick="addTodo()">Add</button>
+        <button type="button" id="clearbtn" onclick="clearTodo()">Clear</button>
+      </div>
+      <div id="message" class="message" aria-live="polite"></div>
+      <div class="mainList" role="list"></div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>

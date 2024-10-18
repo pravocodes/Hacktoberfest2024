@@ -1,0 +1,185 @@
+:root {
+    --bg-color: #f7f7f7;
+    --container-bg: #ffffff;
+    --input-bg: #f0f0f0;
+    --text-color: #333333;
+    --success-color: #4caf50;
+    --error-color: #e74c3c;
+    --hover-success: #45a049;
+    --hover-error: #c0392b;
+    --border-color: #dddddd;
+    --completed-color: #888888;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    background-color: var(--container-bg);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    transition: box-shadow 0.3s;
+}
+
+.container:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#toggleDarkMode {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition: color 0.3s;
+}
+
+#toggleDarkMode:hover {
+    color: var(--success-color);
+}
+
+body.dark-mode {
+    --bg-color: #1e1e2f;
+    --container-bg: #2a2a3e;
+    --input-bg: #3c3c4f;
+    --text-color: #ffffff;
+    --border-color: #444;
+    --completed-color: #888;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+#input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#input:focus {
+    outline: none;
+    border-color: var(--success-color);
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: 500;
+}
+
+button#addbtn {
+    background-color: var(--success-color);
+    color: var(--text-color);
+}
+
+button#addbtn:hover {
+    background-color: var(--hover-success);
+    transform: translateY(-1px);
+}
+
+button#clearbtn {
+    background-color: var(--error-color);
+    color: var(--text-color);
+}
+
+button#clearbtn:hover {
+    background-color: var(--hover-error);
+    transform: translateY(-1px);
+}
+
+.message {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.mainList {
+    margin-top: 20px;
+    background-color: var(--input-bg);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+    transition: background-color 0.2s;
+}
+
+.todo-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.todo-span {
+    color: var(--text-color);
+    font-weight: 400;
+    flex-grow: 1;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: var(--completed-color);
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--error-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.delete-btn:hover {
+    color: var(--hover-error);
+}
+
+.checkbox {
+    cursor: pointer;
+    margin-right: 10px;
+}
