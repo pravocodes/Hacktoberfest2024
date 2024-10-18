@@ -14,17 +14,17 @@ body {
 }
 
 .container {
-    width: 500px; /* Increased width */
-    padding: 40px; /* Added more padding */
+    width: 500px; 
+    padding: 40px; 
     background: #ffffff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* More prominent shadow */
-    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+    border-radius: 15px; 
 }
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #4CAF50; /* Green header color */
+    color: #4CAF50; 
 }
 
 .balance-container {
@@ -33,14 +33,14 @@ h2 {
 }
 
 #balance {
-    font-size: 2.5rem; /* Increased font size */
+    font-size: 2.5rem; 
     color: #333;
 }
 
 .inc-exp-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px; /* Added more margin */
+    margin-bottom: 40px; 
     border: 2px solid #f4f4f4;
     padding: 20px;
     background-color: #f9f9f9;
@@ -53,7 +53,7 @@ h2 {
 }
 
 .money {
-    font-size: 1.5rem; /* Increased font size */
+    font-size: 1.5rem;
 }
 
 .plus {
@@ -73,10 +73,10 @@ h2 {
     display: flex;
     justify-content: space-between;
     background-color: #f2f2f2;
-    padding: 15px; /* Increased padding */
+    padding: 15px; 
     border-left: 5px solid;
     margin-bottom: 10px;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px; 
 }
 
 .list .minus {
@@ -99,9 +99,9 @@ h2 {
 
 .form-control input {
     width: 100%;
-    padding: 12px; /* Larger input fields */
+    padding: 12px; 
     border: 1px solid #ccc;
-    border-radius: 8px; /* Rounded input fields */
+    border-radius: 8px; 
     font-size: 1rem;
 }
 
