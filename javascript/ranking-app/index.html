@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Ranking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Class Ranking System</h1>
+
+        <form id="scoreForm">
+            <div id="studentInputs">
+                <div class="student-input">
+                    <input type="text" class="name" placeholder="Student Name" required>
+                    <input type="number" class="score" placeholder="Score" required>
+                    <button type="button" class="remove-student" onclick="removeStudent(this)">Remove</button>
+                </div>
+            </div>
+            <button type="button" id="addStudentBtn">Add Another Student</button>
+            <button type="submit">Rank</button>
+        </form>
+
+        <div id="ranking">
+            <!-- Rankings will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
