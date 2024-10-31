@@ -1,0 +1,71 @@
+body {
+  background: #6b6b69;
+  color: white;
+}
+
+.info {
+  position: relative;
+  font-family: Arial;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+#title {
+  font-size: 20px;
+}
+
+#rest2 {
+  font-size: 13px;
+}
+
+#text {
+  width: 150px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.233);
+  display: flex;
+  position: relative;
+}
+
+#images {
+  width: 100%;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+#drag1,
+#drag5,
+#drag6,
+#drag7,
+#drag8,
+#drag9,
+#drag10,
+#drag11,
+#drag12 {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+#drag1{
+  background-image: url("./img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#drag5{
+  background-image: url("./img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#drag6{
+  background-image: url("./img3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75px;
+}

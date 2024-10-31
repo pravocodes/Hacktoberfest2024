@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Drag and Drop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div id="text" ondrop="drop(event)" ondragover="allowDrop(event)" droppable="true"></div>
+      <br>
+      <div id="images">
+        <div class="drag1" id="drag1" draggable="true" ondragstart="drag(event)" droppable="false"></div>
+        <div class="drag5" id="drag5" draggable="true" ondragstart="drag(event)" droppable="false"></div>
+        <div class="drag6" id="drag6" draggable="true" ondragstart="drag(event)" droppable="false"></div>
+      </div>
+      
+      <script src="script.js"></script>
+</body>
+</html>
