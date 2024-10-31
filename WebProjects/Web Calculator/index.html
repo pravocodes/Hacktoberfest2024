@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Online calculater to calculate Addition,Substaction,Multiplication,Division and more....">
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon/calculator-icon.png">
+
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="heading center">
+            <h1>Free online calculator</h1>
+        </div>
+        <div>
+            <div class="center">
+                <textarea class="display" id="display" cols="30" rows="10" disabled></textarea>
+            </div>
+            <div class="hr-line"></div>
+            <div class="center">
+                <input type="text" id="result" class="result" disabled>
+            </div>
+            <div class="center">
+                <table>
+                    <tr>
+                        <td><button class="button square-button" style="background-color:#ff4901;">C</button></td>
+                        <td><button class="button square-button">/</button></td>
+                        <td><button class="button square-button">*</button></td>
+                        <td><button class="button square-button">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button square-button">7</button></td>
+                        <td><button class="button square-button">8</button></td>
+                        <td><button class="button square-button">9</button></td>
+                        <td rowspan="2"><button class="button rectangle-vertical-button">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button square-button">4</button></td>
+                        <td><button class="button square-button">5</button></td>
+                        <td><button class="button square-button">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button square-button">1</button></td>
+                        <td><button class="button square-button">2</button></td>
+                        <td><button class="button square-button">3</button></td>
+                        <td rowspan="2"><button class="button rectangle-vertical-button">=</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="button rectangle-horizontal-button">0</button></td>
+                        <td><button class="button square-button">.</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
