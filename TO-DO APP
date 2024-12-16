@@ -1,0 +1,209 @@
+Creating a simple **To-Do List App** in HTML, CSS, and JavaScript is a great way to practice frontend development. Here's a basic version that allows users to add, remove, and mark tasks as completed.
+
+### Project Structure:
+1. **HTML**: Structure of the app.
+2. **CSS**: Styling the app.
+3. **JavaScript**: Functionality (add, delete, complete tasks).
+
+### Step-by-Step Implementation:
+
+#### 1. **HTML** (index.html)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>To-Do List</h1>
+        <div class="input-section">
+            <input type="text" id="todo-input" placeholder="Enter a new task">
+            <button id="add-btn">Add Task</button>
+        </div>
+        <ul id="todo-list">
+            <!-- To-Do items will be added here dynamically -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+#### 2. **CSS** (styles.css)
+
+```css
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.todo-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input section */
+.input-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    padding: 10px;
+    flex: 1;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#add-btn {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+#add-btn:hover {
+    background-color: #4cae4c;
+}
+
+/* To-Do List */
+#todo-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #d9534f;
+}
+```
+
+#### 3. **JavaScript** (script.js)
+
+```javascript
+// Select Elements
+const addButton = document.getElementById('add-btn');
+const todoInput = document.getElementById('todo-input');
+const todoList = document.getElementById('todo-list');
+
+// Add Task Function
+function addTask() {
+    const taskText = todoInput.value.trim();
+
+    if (taskText === '') {
+        alert('Please enter a task!');
+        return;
+    }
+
+    // Create List Item
+    const todoItem = document.createElement('li');
+    todoItem.classList.add('todo-item');
+
+    // Add task text
+    todoItem.innerHTML = `
+        <span>${taskText}</span>
+        <button class="delete-btn">Delete</button>
+    `;
+
+    // Append the new item to the list
+    todoList.appendChild(todoItem);
+
+    // Add event listener for delete button
+    const deleteBtn = todoItem.querySelector('.delete-btn');
+    deleteBtn.addEventListener('click', () => {
+        todoItem.remove();
+    });
+
+    // Add toggle complete feature
+    todoItem.addEventListener('click', () => {
+        todoItem.classList.toggle('completed');
+    });
+
+    // Clear the input field
+    todoInput.value = '';
+}
+
+// Event listener for the "Add" button
+addButton.addEventListener('click', addTask);
+
+// Allow adding task by pressing 'Enter' key
+todoInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        addTask();
+    }
+});
+```
+
+### How the App Works:
+
+1. **Adding a Task**:
+   - The user can type a task in the input field and either click the "Add Task" button or press the "Enter" key to add the task to the list.
+   
+2. **Marking a Task as Completed**:
+   - Clicking on a task toggles the task's completion status. Completed tasks are styled with a strikethrough and gray color.
+   
+3. **Deleting a Task**:
+   - Each task has a "Delete" button next to it, allowing the user to remove the task from the list.
+
+### Features You Can Add:
+- **Local Storage**: Save tasks in the browser so that they persist after a page refresh.
+- **Edit Task**: Allow users to edit a task by double-clicking the text.
+- **Task Priority**: Add options to set task priority (low, medium, high) with different styles.
+
+You now have a functional, simple **To-Do List App** in HTML, CSS, and JavaScript! Let me know if you'd like to add or modify any features.
